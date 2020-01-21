@@ -17,15 +17,20 @@ Push:
 ```
 docker push pierangelo1982/node_mysql
 ```
-ENV:
--e DB_NAE=demo  DB_USER=demo DB_PASSWORD=demo DB_HOST=db
 
 Try:
+launch a db for test the app
+```
+docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=demo -p 0.0.0.0:3306:3306 -d mysql
+```
+
+launch the app with .env credentials
 ```
 docker run --name test-nodemysql \
-    -p 8080:8080 \
+    -p 8080:3000 \
+    --link test-mysql:db \
     -e DB_NAME=demo \
-    -e DB_USER=demo \
+    -e DB_USER=root \
     -e DB_PASSWORD=demo \
     -e DB_HOST=db \
     -d pierangelo1982/node_mysql

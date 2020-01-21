@@ -34,7 +34,8 @@ app.get('/db', function (req, res) {
         
     pool.getConnection(function(err, connection) {
         if (err) {
-            res.send(`DB NON CONNESSO: ${os.hostname()}\n`);
+            //res.send(`DB NON CONNESSO: ${os.hostname()}\n`);
+            res.send(`DB NON CONNESSO1: ${err}\n`);
         } // not connected!
         else {
             // Use the connection
@@ -45,7 +46,8 @@ app.get('/db', function (req, res) {
                 res.send(`DB CONNESSO: ${os.hostname()}\n`);
                 // Handle error after the release.
                 if (error) {
-                    res.send(`DB NON CONNESSO: ${os.hostname()}\n`);
+                    //res.send(`DB NON CONNESSO: ${os.hostname()}\n`);
+                    res.send(`DB NON CONNESSO2: ${error}\n`);
                     // Don't use the connection here, it has been returned to the pool.
                 }
             });
