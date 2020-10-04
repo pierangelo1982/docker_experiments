@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load carton_tags %}
+
+
+<div id="page-content-wrapper" style="padding-right:0px;">
+	
+	{% include 'components/avvisi.html' %}
+	<form class="white-row" action="{% url 'add-order' %}" method="POST">{% csrf_token %}
+
+
+	
+	<div class="col-sm-12">
+		<h1>Il Tuo Carrello:</h1>
+
+		{% get_cart as cart %}
+	    
+	    <table class="table table-striped">
+		    <tr>
+		    	<td>img</td>
+		    	<th>Tipologia</th>
+		        <th>Negozio</th>
+		        <th>Quantity</th>
+		        <th>Prezzo Unitario</th>
+		        <th>Prezzo Totale</th>
+		        <th></th>
+		    </tr>
+		    {% for item in cart.items %}
+		    <tr>
+		    	<td><img src="/media/{{item.product.image}}" style="width:200px;"></td>
+		    	<td>{{ item.product.category.first.title }}</td>
+		        <td>{{ item.product.name }}</td>
+		        <td>{{ item.quantity }}</td>
+		        <td>{{ item.product.price}}</td>
+		        <td>{{ item.subtotal }}</td>
+		        <th><a href="{% url 'remove-cart' item.product.id %}"><i class="fa fa-trash" aria-hidden="true"></i></a></th>
+		    </tr>
+		    {% endfor %}
+	    </table>
+
+	    <span style="text-align: right;padding-right:20px;">
+	    <h3>Total: {{ cart.total }}</h3>
+		</span>
+	</div>
+
+	<div class="col-xs-12" style="text-align: center">
+		<button class="btn btn-ordina">EFFETTUA L'ORDINE</button>
+	</div>
+
+</form>
+
+</div>
+
+{% endblock %}

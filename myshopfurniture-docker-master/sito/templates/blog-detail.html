@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+
+
+<div id="page-content-wrapper" style="padding-right:0px;">
+
+	{% include 'components/avvisi.html' %}
+
+
+		<div class="container-fluid">
+			<div class="row">
+
+
+				<section id="contenuto">
+
+					<div class="tp-banner-container">
+							<div class="tp-banner" >
+								<ul>
+									<!-- SLIDE  -->
+									<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+										<!-- MAIN IMAGE -->{% load cropping %}
+										<img src="{% cropped_thumbnail blog "slider" %}"  alt="{{blog.title}}"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+									</li>
+								</ul>
+							</div>
+						</div>
+
+
+						<script type="text/javascript">
+						  jQuery(document).ready(function() 
+						  {
+						    jQuery('.tp-banner').revolution(
+						    {
+						      delay:4000,
+						      startwidth:1000,
+						      startheight:300,
+						      hideThumbs:10,
+						      navigationStyle:"bullet",
+						    });
+						  });
+						</script>
+
+					<div class="col-xs-12 col-sm-8" style="padding-left:20px; padding-top:10px;">
+	                	<h1 style="padding-left:20px;">
+	                		{% if session_language = 'en' %}
+	                			{{blog.title_uk}}
+	                		{% else %}
+	                			{{blog.title}}
+	                		{% endif %}
+	                	</h1>
+	                	<p style="text-align: justify; font-size: 10pt; padding-left: 20px;">
+	                		{% if session_language = 'en' %}
+	                			{{blog.body_uk|safe}}
+	                		{% else %}
+	                			{{blog.body|safe}}
+	                		{% endif %}
+	                	</p>
+	                </div>
+
+
+	                <div class="col-xs-12 col-sm-4 price-column" style="padding-left:20px; padding-top:60px; text-align: right;">
+
+	                	</div>
+
+					</div>
+
+				</section>
+
+
+
+			</div><!-- row -->
+		</div><!-- container fluid -->
+
+
+</div><!-- page wrapper -->
+
+{% endblock %}
+
+
+{% block footerjs %}
+   
+{% endblock %}
+

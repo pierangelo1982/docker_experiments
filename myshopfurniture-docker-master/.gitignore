@@ -1,0 +1,10 @@
+
+# first line must not contain any rules
+media/*
+static
+static/img/*
+static/images/*
+static/demo
+djangocommerce/settings_locale.py
+djangocommerce/settings_locale.pyc
+!.gitignore

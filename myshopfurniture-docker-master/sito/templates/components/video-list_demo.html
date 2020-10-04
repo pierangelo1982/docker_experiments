@@ -1,0 +1,9 @@
+
+{% for video in video_list %}
+<div class="col-xs-12 col-sm-3" style="margin-top:20px;margin-bottom:20px;">
+    <a id="video-link" class="button" href="#video{{video.id}}" data-toggle="tab">
+    	<img src="/media/{{video.image}}" class="img-responsive" title="{{video.title}}" alt="{{video.title}}">
+    </a>
+</div>
+{% endfor %}
+

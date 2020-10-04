@@ -1,0 +1,37 @@
+
+
+
+
+<div id="myModal-phone" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content" style="padding-left:20px; padding-right:20px;">
+    	<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" style="text-align: center">
+          <span style="border-bottom-width:3px;border-bottom-style:solid; border-color:#dfdb00; padding-bottom:5px;">
+            {% if session_language = 'en' %}
+              Contacts
+            {% else %}
+              Contattaci
+            {% endif %}
+          </span>
+        </h4>
+      </div>
+      <h4 class="text-center">
+        {% if session_language = 'en' %}
+        For information and / or clarification, please contact Our support at this phone number:<br>
+        {% else %}
+        Per informazioni e/o chiarimenti contatta il nostro supporto tecnico a questo numeri:<br>
+        {% endif %}<br>
+        <strong>Tel: (+39) 030 731944</strong><br>
+        <strong>Mobile: (+39) 347 0413360</strong><br>
+        <strong>Mobile: (+39) 348 7036987</strong>
+    </h4>
+      <p class="p-modal-page">
+        <br>
+        <br>
+        <br>
+      </p>
+    </div>
+  </div>
+</div>

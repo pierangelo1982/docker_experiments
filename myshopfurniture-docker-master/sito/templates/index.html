@@ -1,0 +1,44 @@
+
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+
+
+
+<!-- Page Content -->
+<div id="page-content-wrapper" style="padding-right:0px;">
+	<div class="container-fluid">
+    	<div class="row">
+
+
+    		<div id="video" class="hidden-xs hidden-sm hidden-md col-lg-3">
+                {% include 'components/video-list.html' %}
+                {% include 'components/newsletter.html' %}
+                {% include 'components/richiesta_home.html' %}
+                {% if blog_list %}
+                {% include 'components/blog-home.html' %}
+                {% endif %}
+            </div>
+
+    		{% include 'components/avvisi.html' %}
+
+    		{% include 'components/tab-video.html' %}
+    		
+    		<div id="immagini" class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
+    			<div class="col-xs-12">{% include 'components/slider.html' %}</div>
+    			<div class="col-xs-12">{% include 'components/negozi_home.html' %}</div>
+    		</div>
+
+
+
+
+
+		</div><!-- row -->
+	</div><!-- container fluid -->
+</div><!-- page-content-wrapper-->
+
+
+
+{% endblock %}

@@ -1,0 +1,178 @@
+{% extends 'base.html' %}
+
+{% block personalizzato %}
+<style type="text/css">
+.logo-footer {
+	margin-left:110px;
+}
+</style>
+{% endblock %}
+
+
+{% block content %}
+
+
+<div id="page-content-wrapper" style="padding-right:0px;">
+
+	{% include 'components/avvisi.html' %}
+
+	<form class="white-row" action="{% url 'add-to-cart' %}" method="GET">{% csrf_token %}
+
+		<input type="hidden" name="product_id" value="{{product.id}}">
+		<input type="hidden" name="quantity" value="1">
+		<!--input type="hidden" name="price" value="{{product.price}}"-->
+
+		<div class="container-fluid">
+			<div class="row">
+
+
+				<section id="contenuto">
+
+					{% include 'components/slider-dettaglio.html' %}
+
+					<div class="col-xs-12 col-sm-8" style="padding-left:20px; padding-top:10px;">
+	                	<h1 style="padding-left:20px;">
+	                		{% if session_language = 'en' %} 
+	                			{{product.name_uk}}
+	                		{% else %}
+	                			{{product.name}}
+	                		{% endif %}
+	                	</h1>
+	                	<p style="text-align: justify; font-size: 10pt; padding-left: 20px;">
+	                		{% if session_language = 'en' %}
+	                			{{product.descrizione_uk|safe}}
+	                		{% else %}
+	                			{{product.descrizione|safe}}
+	                		{% endif %}
+	                	</p>
+	                	<div class="col-xs-12"><hr></div>
+
+	                	<div class="col-xs-12">
+	                		{% if product.video %}
+	                		{% for v in product.video.all %}
+	                		<div class="embed-responsive embed-responsive-16by9">
+  								<iframe width="560" height="315" src="https://www.youtube.com/embed/{{v.code}}?rel=0" frameborder="0" allowfullscreen></iframe>
+							</div>
+							{% endfor %}
+							{% endif %}
+	                	</div>
+
+
+	                	<div class="col-xs-12"><hr></div>
+
+	                	<!-- colore -->
+	                	<div class="col-xs-12">
+	                		<h3>
+	                			{% if session_language = 'en' %}
+	                			COLOR FINISHES
+	                			{% else %}
+	                			COLORE FINITURA
+	                			{% endif %}
+	                		</h3>
+	                	</div>	                	
+	            		<div class="col-xs-12 col-sm-3">{% load cropping %}
+	            			<img src="{% cropped_thumbnail product.color.first "thumb" %}" class="img-responsive img-colore">
+	            		</div>
+	            		<div class="col-xs-12 col-sm-7"><h3 class="txt-color-dettaglio">{{product.color.first.name}}</h3></div>
+	            		<!-- end colore -->
+	            		
+	                	<section id="moduli">
+	                		{% include 'components/moduli.html' %}
+	                	</section>
+	                </div>
+
+
+	                <div class="col-xs-12 col-sm-4 price-column" style="padding-left:20px; padding-top:60px; text-align: right;">
+	                	<a class="btn baloon-price">
+	                		<!--{{product.price}}-->{{product.price}} €
+	                		<span style="font-size: 12pt;"><br>
+	                			{% if session_language = 'en' %}{% else %}(IVA esclusa){% endif %}
+	                		</span>
+	                	</a>
+
+	                	<a class="btn baloon-mq">70mq.</a><br>
+
+	                	<a class="btn baloon-trasporto">
+	                		{% if session_language = 'en' %}
+	                		<span style="color:#dfdb00">EURO-ZONE</span><BR>
+	                		SHIPPING<br>
+	                		<span style="color: #dfdb00">INCLUDED<br>
+	                		IN PRICE<br></span>
+	                		{% else %}
+	                		<span style="color:#dfdb00">EURO-ZONA</span><BR>
+	                		TRASPORTO<br>
+	                		<span style="color: #dfdb00">COMPRESO<br>
+	                		NEL PREZZO<br></span>
+	                		{% endif %}
+	                		<span style="font-size: 11px; font-weight:light; line-height: 0.5;">
+	                			
+	                		</span>
+	                	</a>
+	                	<br>
+	                	<a class="btn baloon-trasporto" style="text-align:center">
+	                		{% if session_language = 'en' %}
+	                		<span style="color:#dfdb00;">DELIVERY<br>
+							IN 40 day.<br></span>
+							<span style="font-size: 12pt;">FROM PAYMENT<br>
+							RECEIVED</span>
+
+	                		{% else %}
+							<span style="color:#dfdb00;">CONSEGNA<br>
+							ENTRO 40gg.<br></span>
+							<span style="font-size: 12pt;">DA RICEZIONE<br>
+							PAGAMENTO</span>
+							{% endif %}
+	                	</a><br>
+
+	                	<button class="btn btn-add-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> 
+	                		{% if session_language = 'en' %}
+	                			ADD TO CART
+	                		{% else %}
+	                			AGGIUNGI AL CARRELLO
+	                		{% endif %}
+	                	</button>
+
+	                	<section id="rx-dettaglio">
+	                		{% if session_language = 'en' %}
+	                		<a href="" data-toggle="modal" data-target=".pagina4"><H3>TERMS<BR>OF SALE</h3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina8"><h3>SHIPPING FEES</h3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina9"><h3>PAYMENT MODE</h3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina5"> <H3>HIRE PURCHASE</H3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina-richiesta">
+	                			<H3>CUSTUMIZED<br>SHOP DESIGN</h3>
+	                		</a>
+
+	                		{% else %}
+	                		<a href="" data-toggle="modal" data-target=".pagina4"><H3>CONDIZIONI<BR>DI VENDITA'</h3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina8"><h3>SPESE DI SPEDIZIONE</h3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina9"><h3>MODALITA' DI PAGAMENTO</h3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina5"> <H3>PAGAMENTO DILAZIONATO</H3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina-richiesta">
+	                			<H3>PERSONALIZZAZIONE<br>DESIGN NEGOZIO</h3>
+	                		</a>
+	                		{% endif %}
+	                	</div>
+
+					</div>
+					
+				</section>
+
+
+
+			</div><!-- row -->
+		</div><!-- container fluid -->
+
+
+	</form>
+</div><!-- page wrapper -->
+
+{% include 'components/modal_pagine.html' %}
+
+{% include 'components/modal_richiesta.html' %}
+
+{% endblock %}
+
+
+{% block footerjs %}
+   
+{% endblock %}

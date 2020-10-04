@@ -1,0 +1,136 @@
+
+<div class="modal fade bs-example-modal-lg pagina-richiesta" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content" style="padding-left:20px; padding-right:20px;">
+    	<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" style="text-align: center">
+          <span style="border-bottom-width:3px;border-bottom-style:solid; border-color:#dfdb00; padding-bottom:5px;">
+            {% if session_language = 'en' %}
+              Send request for a Customized Project
+            {% else %}
+              Invia Richiesta per un Progetto su Misura
+            {% endif %}
+          </span>
+        </h4>
+      </div>
+      <p class="p-modal-page">
+
+  {% if session_language = 'en' %}
+    <form action="{% url 'richiesta' %}" enctype="multipart/form-data" method="POST">{% csrf_token %}
+      <div class="col-xs-12 col-sm-6 form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" name="nome" class="form-control" id="exampleInputEmail1" placeholder="" required>
+      </div>
+      <div class="col-xs-12 col-sm-6 form-group">
+        <label for="exampleInputEmail1">Last Name</label>
+        <input type="text" name="cognome" class="form-control" id="exampleInputEmail1" placeholder="" required>
+      </div>
+      <div class="col-xs-12 col-sm-10 form-group">
+        <label for="exampleInputPassword1">Address</label>
+        <input type="text" name="indirizzo" class="form-control" id="exampleInputPassword1" placeholder="">
+      </div>
+      <div class="col-xs-12 col-sm-2 form-group">
+        <label for="exampleInputEmail1">Nr.</label>
+        <input type="text" name="civico" class="form-control" id="exampleInputEmail1" placeholder="">
+      </div>
+      <div class="col-xs-12 col-sm-4 form-group">
+        <label for="exampleInputEmail1">Zip</label>
+        <input type="text" name="cap" class="form-control" id="exampleInputEmail1" placeholder="">
+      </div>
+      <div class="col-xs-12 col-sm-8 form-group">
+        <label for="exampleInputEmail1">City</label>
+        <input type="text" name="citta" class="form-control" id="exampleInputEmail1" placeholder="">
+      </div>
+      <div class="col-xs-12 col-sm-6 form-group">
+        <label for="exampleInputEmail1">Phone</label>
+        <input type="text" name="telefono" class="form-control" id="exampleInputEmail1" placeholder="">
+      </div>
+      <div class="col-xs-12 col-sm-6 form-group">
+        <label for="exampleInputEmail1">Email</label>
+        <input type="text" name="email" class="form-control" id="exampleInputEmail1" placeholder="" required>
+      </div>
+      <div class="col-xs-12 col-sm-12 form-group">
+        <label for="exampleInputEmail1">Subject</label>
+        <input type="text" name="oggetto" class="form-control" id="exampleInputEmail1" placeholder="" required>
+      </div>
+      <div class="col-xs-12 col-sm-12 form-group">
+        <label for="exampleInputEmail1">Note</label>
+        <textarea row="5" name="descrizione" class="form-control" id="exampleInputEmail1">
+        </textarea>
+      </div>
+      <div class="col-xs-12 col-sm-12 form-group">
+        <label for="exampleInputEmail1">Attachment:</label>
+        <input type="file" name="allegato" class="form-control" id="exampleInputEmail1">
+        </textarea>
+      </div>
+      <br>
+      <br>
+      <p style="text-align: center">
+        <button type="submit" class="btn btn-default btn-ordina">Send</button>
+      </p>
+    </form>
+
+
+  {% else %}
+    <form action="{% url 'richiesta' %}" enctype="multipart/form-data" method="POST">{% csrf_token %}
+      <div class="col-xs-12 col-sm-6 form-group">
+        <label for="exampleInputEmail1">Nome</label>
+        <input type="text" name="nome" class="form-control" id="exampleInputEmail1" placeholder="" required>
+      </div>
+      <div class="col-xs-12 col-sm-6 form-group">
+        <label for="exampleInputEmail1">Cognome</label>
+        <input type="text" name="cognome" class="form-control" id="exampleInputEmail1" placeholder="" required>
+      </div>
+      <div class="col-xs-12 col-sm-10 form-group">
+        <label for="exampleInputPassword1">Via</label>
+        <input type="text" name="indirizzo" class="form-control" id="exampleInputPassword1" placeholder="">
+      </div>
+      <div class="col-xs-12 col-sm-2 form-group">
+        <label for="exampleInputEmail1">Nr.</label>
+        <input type="text" name="civico" class="form-control" id="exampleInputEmail1" placeholder="">
+      </div>
+      <div class="col-xs-12 col-sm-4 form-group">
+        <label for="exampleInputEmail1">Cap</label>
+        <input type="text" name="cap" class="form-control" id="exampleInputEmail1" placeholder="">
+      </div>
+      <div class="col-xs-12 col-sm-8 form-group">
+        <label for="exampleInputEmail1">Citta</label>
+        <input type="text" name="citta" class="form-control" id="exampleInputEmail1" placeholder="">
+      </div>
+      <div class="col-xs-12 col-sm-6 form-group">
+        <label for="exampleInputEmail1">Telefono</label>
+        <input type="text" name="telefono" class="form-control" id="exampleInputEmail1" placeholder="">
+      </div>
+      <div class="col-xs-12 col-sm-6 form-group">
+        <label for="exampleInputEmail1">Email</label>
+        <input type="text" name="email" class="form-control" id="exampleInputEmail1" placeholder="" required>
+      </div>
+      <div class="col-xs-12 col-sm-12 form-group">
+        <label for="exampleInputEmail1">Oggetto</label>
+        <input type="text" name="oggetto" class="form-control" id="exampleInputEmail1" placeholder="" required>
+      </div>
+      <div class="col-xs-12 col-sm-12 form-group">
+        <label for="exampleInputEmail1">Note</label>
+        <textarea row="5" name="descrizione" class="form-control" id="exampleInputEmail1">
+        </textarea>
+      </div>
+      <div class="col-xs-12 col-sm-12 form-group">
+        <label for="exampleInputEmail1">Allega progetto:</label>
+        <input type="file" name="allegato" class="form-control" id="exampleInputEmail1">
+        </textarea>
+      </div>
+      <br>
+      <br>
+      <p style="text-align: center">
+        <button type="submit" class="btn btn-default btn-ordina">Invia</button>
+      </p>
+    </form>
+    {% endif %}
+
+
+
+      </p>
+    </div>
+  </div>
+</div>

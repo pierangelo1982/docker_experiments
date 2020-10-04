@@ -1,0 +1,80 @@
+   <div id="wrapper" style="background-color: #ffffff;">{% load base_extras %}
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+            	<li id="finiture" class="{% ifactive "home" %}active{% else %}finiture-sfondo{% endifactive %}">
+            		<a href="{% url 'home' %}">home</a>
+            	</li>
+                {% for cat in category_list %}
+            	<li id="attivi" class="{% ifactive "categoria" session_language cat.id %}active{% else %}attivi-none{% endifactive %}">
+                   <a href="{% url 'categoria' session_language cat.id %}">
+                        {% if session_language = 'en' %} 
+                            {{cat.title_uk}}
+                        {% else %}
+                            {{cat.title}}
+                        {% endif %}
+                    </a>
+                </li>
+                {% endfor %}
+                <li class="{% ifactive "video" session_language %}active{% endifactive %} hidden-lg">
+                    <a href="{% url 'video' session_language %}">video</a>
+                </li>
+
+                {% if session_language = 'en' %} 
+                <li class="finiture {% ifactive "finiture" session_language %}active{% endifactive%}">
+                    <a href="{% url 'finiture' session_language %}">finishes</a>
+                </li>
+                <li class="{% ifactive "pagina-dettaglio" session_language 1 %}active{% endifactive %}">
+                    <a href="{% url 'pagina-dettaglio' session_language 1 %}">made in italy</a>
+                </li>
+                <li class="{% ifactive "pagina-dettaglio" session_language 2 %}active{% endifactive %}">
+                    <a href="{% url 'pagina-dettaglio' session_language 2 %}">design</a>
+                </li>
+                <li class="{% ifactive "pagina-dettaglio" session_language 3 %}active{% endifactive %}">
+                    <a href="{% url 'pagina-dettaglio' session_language 3 %}">personalized study</a>
+                </li>
+                <li class="{% ifactive "pagina-dettaglio" session_language 4 %}active{% endifactive %}">
+                    <a href="{% url 'pagina-dettaglio' session_language 4 %}">terms of sale</a>
+                </li>
+                <li class="{% ifactive "pagina-dettaglio" session_language 5 %}active{% endifactive %}">
+                    <a href="{% url 'pagina-dettaglio' session_language 5 %}">hire purchase</a>
+                </li>
+                <li class="{% ifactive "pagina-dettaglio" session_language 6 %}active{% endifactive %}">
+                    <a href="{% url 'pagina-dettaglio' session_language 6 %}">policy</a>
+                </li> 
+
+                {% else %}
+                <li class="finiture {% ifactive "finiture" session_language %}active{% endifactive%}">
+                    <a href="{% url 'finiture' session_language %}">finiture</a>
+                </li>
+                <li class="{% ifactive "pagina-dettaglio" session_language 1 %}active{% endifactive %}">
+                    <a href="{% url 'pagina-dettaglio' session_language 1 %}">made in italy</a>
+                </li>
+                <li class="{% ifactive "pagina-dettaglio" session_language 2 %}active{% endifactive %}">
+                    <a href="{% url 'pagina-dettaglio' session_language 2 %}">design</a>
+                </li>
+                <li class="{% ifactive "pagina-dettaglio" session_language 3 %}active{% endifactive %}">
+                	<a href="{% url 'pagina-dettaglio' session_language 3 %}">studio personalizato</a>
+                </li>
+                <li class="{% ifactive "pagina-dettaglio" session_language 4 %}active{% endifactive %}">
+                	<a href="{% url 'pagina-dettaglio' session_language 4 %}">condizioni di vendità</a>
+                </li>
+                <li class="{% ifactive "pagina-dettaglio" session_language 5 %}active{% endifactive %}">
+                	<a href="{% url 'pagina-dettaglio' session_language 5 %}">acquista a rate</a>
+                </li>
+                <li class="{% ifactive "pagina-dettaglio" session_language 6 %}active{% endifactive %}">
+                	<a href="{% url 'pagina-dettaglio' session_language 6 %}">policy</a>
+                </li> 
+                {% endif %}         
+                <li>
+                	<br>
+                	<br>
+                	<br>
+                	<br>
+                	<br>
+                	<br>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->

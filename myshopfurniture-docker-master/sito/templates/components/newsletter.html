@@ -1,0 +1,26 @@
+<div id="newsletter-box" class="col-xs-12">
+	<form class="form-inline" action="{% url 'add-newsletter' %}" method="POST">{% csrf_token %}
+		<label>
+			{% if session_language = 'en' %}
+				Subscribe to the Newsletter
+			{% else %}
+				Iscriviti alla Newsletter
+			{% endif %}
+		</label>
+	  <div class="form-group">
+		<input type="text" value="" 
+			data-msg-required="Please enter your email" 
+			data-msg-email="Please enter your email" 
+			maxlength="255" class="form-control" 
+			name="newsletter_email" placeholder="your@emal.it" required/>
+
+			<button type="submit" class="btn btn-default btn-newsletter">
+				{% if session_language = 'en' %}
+					SUBSCRIBE
+				{% else %}
+					ISCRIVITI
+				{% endif %}
+			</button>
+		</div>
+	</form>
+</div>

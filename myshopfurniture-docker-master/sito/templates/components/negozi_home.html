@@ -1,0 +1,91 @@
+
+
+{% load humanize i18n %}
+
+{% for pro in product_list %}
+{% load shuffle %}
+{% for gallery in pro.gallery.all|shuffle|slice:":1" %}
+<div class="hidden-xs hidden-sm col-md-12 col-lg-12 imgWrap">{% load cropping %}
+	<a href="{% url 'detail' session_language pro.id %}">
+		<img src="{% cropped_thumbnail gallery "slider" %}" class="img-responsive" title="{{pro.name}}" alt="{{pro.name}}">
+		<p class="imgDescription">
+			<br>
+			<br>
+			<span>{% if session_language = 'en' %}{{pro.name_uk|safe}}{% else %}{{pro.name}}{% endif %}</span>
+			<span style="font-size:40px; font-weight:bold">{{pro.price|intcomma}}</span>
+			<span style="font-size:18px;">€</span><br>
+			<span style="font-size:14px;text-align: center">
+				{% if session_language = 'en' %}{% else %}(IVA esclusa){% endif %}
+			</span>
+			<br>
+			<span style="font-size:22px; font-weight:400">
+				<br>
+				{% if session_language = 'en' %}
+				SHIPPING<br>
+				INCLUDED IN PRICE
+				{% else %}
+				SPEDIZIONE<br>
+				INCLUSA NEL PREZZO
+				{% endif %}
+			</span>
+			<br>
+			<br>
+			<span style="width:100%; border-top-width:1px; border-top-style:solid; border-top-color: #ffffff">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+			</span>
+			<span style="font-weight:300;font-size:23px;margin-top:-10px">
+				{% if session_language = 'en' %}EURO ZONE{% else %}EURO ZONA{% endif %}
+			</span>
+			<br>
+			<br>
+		</p>
+	</a>
+</div>
+
+
+
+<!----- MOBILE TABLET PORTRAIT -------------------->
+<div class="col-xs-12 col-sm-12 hidden-md hidden-lg imgWrap">{% load cropping %}
+	<a href="{% url 'detail' session_language pro.id %}">
+		<img src="{% cropped_thumbnail gallery "slider" %}" class="img-responsive" title="{{pro.name}}" alt="{{pro.name}}">
+		<p class="imgDescription">
+			<br>
+			<br>
+			<span>{% if session_language = 'en' %}{{pro.name_uk|safe}}{% else %}{{pro.name}}{% endif %}</span>
+			<span style="font-size:20px; font-weight:bold">{{pro.price|intcomma}}</span>
+			<span style="font-size:12px;">€</span><br>
+			<span style="font-size:9px;text-align: center">
+				{% if session_language = 'en' %}{% else %}(IVA esclusa){% endif %}
+			</span>
+			<br>
+			<span style="font-size:18px; font-weight:400">
+				<br>
+				{% if session_language = 'en' %}
+				SHIPPING<br>
+				INCLUDED IN PRICE
+				{% else %}
+				SPEDIZIONE<br>
+				INCLUSA NEL PREZZO
+				{% endif %}
+			</span>
+			<br>
+			<br>
+			<!--span style="width:100%; border-top-width:1px; border-top-style:solid; border-top-color: #ffffff">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+			</span-->
+			<span style="font-weight:300;font-size:23px;margin-top:-10px">
+				{% if session_language = 'en' %}EURO ZONE{% else %}EURO ZONA{% endif %}
+			</span>
+			<br>
+			<br>
+		</p>
+	</a>
+</div>
+{% endfor %}
+{% endfor %}

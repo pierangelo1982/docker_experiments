@@ -1,0 +1,53 @@
+<div class="tp-banner-container">
+  <div class="tp-banner" >
+    <ul>
+      {% for slider in product_list %}
+      {% if slider.slide == True %}
+        {% load shuffle %}
+        {% for gallery in slider.gallery.all|shuffle|slice:":1" %}
+      <!-- SLIDE  -->
+      <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-link="{% url 'detail' session_language slider.id %}">
+        <!-- MAIN IMAGE -->{% load cropping %}
+        <img src="{% cropped_thumbnail gallery "slider" %}"  alt="{{slider.name}}"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" data-link="{% url 'detail' session_language slider.id %}" title="{{slider.name}}" alt="{{slider.name}}">
+        <div class="tp-caption largewhitebg skewfromleft fadeout"
+                    style="border-radius: 0px 20px 20px 0px;"
+                    data-x="0"
+                    data-y="400"
+                    data-speed="500"
+                    data-start="1200"
+                    data-easing="Power4.easeOut"
+                    data-link="{% url 'detail' session_language slider.id %}">
+                    <p class="revolutioncar" data-link="{% url 'detail' session_language slider.id %}">
+                      <a href="{% url 'detail' session_language slider.id %}" style="z-index:999">
+                        {% if session_language = 'en' %}
+                          {{slider.name_uk|safe}}
+                        {% else %}
+                          {{slider.name|safe}}
+                        {% endif %}
+                      </a>
+                    </p>
+        </div>
+      </li>
+      {% endfor %}
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  jQuery(document).ready(function() 
+  {
+    jQuery('.tp-banner').revolution(
+    {
+      delay:4000,
+      startwidth:1000,
+      startheight:556,
+      hideThumbs:10,
+      touchenabled:"off",
+      navigationStyle:"bullet",
+    });
+  });
+</script>

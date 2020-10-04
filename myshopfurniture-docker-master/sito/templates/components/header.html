@@ -1,0 +1,76 @@
+  <div id="header" class="col-xs-12 col-sm-12">{% load staticfiles %}
+  	<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+      <span style="float:left; position:relative; width: auto;">
+        <a href="{% url 'home' %}">
+      	   <img src="{% static 'img/logo.png' %}" class="img-responsive logo" title="my shop furniture" alt="logo">
+        </a>
+      </span>
+      <span style="float: left; margin-top:-2px;" class="hidden-xs hidden-sm">
+        <h1 style="font-family: 'Fjalla One', sans-serif; font-size: 13px; background-color: #dfdb00; padding:5px 10px 5px 150px; width:auto;">
+          {% if session_language = 'en' %}FURNITURE DESIGN SHOP{% else %}ARREDAMENTI DI DESIGN PER NEGOZI{% endif %}
+        </h1>
+      </span>
+    </div>
+   	<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+   		<p class="cart-header text-right">{% load carton_tags %}{% get_cart as cart %}
+    	<strong>
+        {% if request.user %}{{request.user}}{% else %}registrati{% endif %} / 
+        <a href="{% url 'show-cart' %}"><i class="fa fa-shopping-cart" aria-hidden="true"></i> {{cart.count}}
+          <span class="hidden-xs hidden-sm hidden-md">prodotti</span></a>
+      </strong>
+    	</p>
+    </div>
+  </div>
+  <div id="black" class="col-xs-12">
+  	
+  	<ul>
+  		<li>
+  		<form class="form-inline">
+		  <div class="form-group">
+      <!-- registra e/o modifica dati -->
+      {% if request.user.is_authenticated %}
+      <a href="/customer">
+        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">{{request.user}}</button>
+      </a>
+      {% else %}
+		  <a href="{% url 'registra-utente' %}">
+        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
+          {% if session_language = 'en' %}Sign Up{% else %}Registrati{% endif %}
+        </button>
+      </a>
+      {% endif %}
+
+      <!-- Log In e Log Out -->
+      {% if request.user.is_authenticated %}
+        <a href="{% url 'logout' %}"><button type="button" class="btn btn-default">Log out</button></a>
+      {% else %}
+		    <a href="/login"><button type="button" class="btn btn-default">Log in</button></a>
+      {% endif %}
+		</form>
+		<li>
+  	</ul>
+  	
+  	<ul id="social-menu">
+      <li style="padding-top:15px;">
+        <a href="/language/it" style="font-size:12px;">ITA</a> | <a href="/language/en" style="font-size:12px;">ENG</a>
+      </li>
+  		<li>
+  			<a href="https://www.facebook.com/myshopfurniture/" target="_Blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+  		</li>
+  		<li>
+  			<a href="https://twitter.com/myshopfurniture" target="_Blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+  		</li>
+  		<li>
+  			<a href="https://www.instagram.com/myshopfurniture/" target="_Blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+  		</li>
+  		<li>
+  			<a href="mailto:myshopforniture@glocalnow.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  		</li>
+      <li>
+        <a href="#" data-toggle="modal" data-target="#myModal-phone"><i class="fa fa-phone-square" aria-hidden="true"></i></a>
+      </li>
+  	</ul>
+    <br>
+  </div>
+
+

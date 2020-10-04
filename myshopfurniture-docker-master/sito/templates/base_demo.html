@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">{% load staticfiles %}
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>MY SHOP FURNITURE | arredamenti ed accessori di design per negozi</title>
+
+    <meta name="description" content="myshopfurniture disegna, progetta e realizza arredamenti ed accessori di design per negozi. I nostri arredamenti sono made in italy">
+
+    <META NAME="KEYWORDS" CONTENT="architect, furniture, shop furniture, interior decor, work spaces, industrial design, design, design furniture, architecture, interior, mobili negozio, design negozio, negozio acccessori, negozio ottica, negozio oggettistica, oggettistica, ottica, accessori, elementi di arredo, progettazione negozi, progetto personalizzato, design personalizzato, negozio su misura, materiali, finiture, made in italy, economico, negozio economico, progettazione negozio, design negozio, negozio moderno, moduli, arredo negozio, moduli espositivi, cassa, vetrinette, tavoli, teche, lampade, grafiche espositive, vetrofanie, personalizzazione, design personalizzato, negozi in tutta europa, progetto italiano, negozio made in italy, qualità italiana, gusto italiano, negozio, spazio centro commerciale, spazio espositivo, temporary shop, negozio temporaneo, negozio centro storico, negozio centro commerciale, punto vendita">
+
+    <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}" sizes="192x192">
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
+
+    <!-- SLIDER REVOLUTION -->        
+    <link rel="stylesheet" type="text/css" href="{% static 'rs-plugin/css/style.css' %}" media="screen" />
+    <script type="text/javascript" src="{% static 'rs-plugin/js/jquery.themepunch.plugins.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'rs-plugin/js/jquery.themepunch.revolution.min.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'rs-plugin/css/settings.css' %}" media="screen" />
+
+    <!-- lightbox -->
+    <link href="{% static 'css/lightbox.css' %}" rel="stylesheet">
+
+    <!-- font -->
+    <link rel="stylesheet" href="{% static 'awesome/css/font-awesome.min.css' %}">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" media="screen" />
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/simple-sidebar.css' %}" rel="stylesheet">
+    <link href="{% static 'custom_demo.css' %}" rel="stylesheet">
+
+
+    {% block personalizzato %}
+    {% endblock %}
+
+    <script type="text/javascript">
+      if (screen.width <= 470) {
+        window.location = "http://mobile.myshopfurniture.com";
+      }
+    </script>
+
+  </head>
+  <body>
+    
+
+
+    
+    {% include 'components/header.html' %}
+
+    {% block yellowline %}{% endblock %}
+
+    {% include 'components/menu_demo.html' %}
+
+    {% block content %}
+
+
+    {% endblock %}
+
+{% include 'components/richiesta-telefono.html' %}
+
+<div class="col-xs-12" style="padding-right:0px; margin-right: 0px;">
+    <footer style="">
+        <div class="col-sm-2"></div>
+        
+        <div class="col-sm-8 logo-footer text-center">
+            <div class="row">
+                <div class="col-xs-12">
+                    <img src="{% static 'img/logo_bianco.png' %}" title="my shop furniture" alt="logo footer" style="width:350px;">
+                </div>
+
+                <div class="col-sm-5">
+                    <div id="newsletter-box" class="col-xs-12" style="color: #ffffff; margin-top:33px;">
+                        <form class="form-inline" action="{% url 'add-newsletter' %}" method="POST">{% csrf_token %}
+                          <div class="form-group">
+                            <input type="text" value="" 
+                                data-msg-required="Please enter your email" 
+                                data-msg-email="Please enter your email" 
+                                maxlength="255" class="form-control" 
+                                name="newsletter_email" placeholder="your@emal.it" required/>
+
+                                <button type="submit" class="btn btn-default btn-newsletter">
+                                    {% if session_language = 'en' %}
+                                        SUBSCRIBE
+                                    {% else %}
+                                        ISCRIVITI
+                                    {% endif %}
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <span class="col-sm-4">
+                      <button data-toggle="modal" data-target="#myModal-phone" class="btn btn-send" style="width:100% padding:5px; font-size:11pt;">
+                          {% if session_language = 'en' %}PHONE CONTACT{% else %}CONTATTO TELEFONICO{% endif %}
+                      </button>
+                </span>
+
+                <div class="col-sm-3">
+                    <button data-toggle="modal" data-target=".pagina-richiesta-home" class="btn btn-send" style="width:100% padding:5px; font-size:11pt;">
+                        {% if session_language = 'en' %}
+                            CONTACT US FOR INFO
+                        {% else %}
+                            CONTATTACI PER INFO
+                        {% endif %}
+                    </button>
+                </div>
+
+                <div class="col-xs-12">
+                    <p class="footer-scritta" style="color: #ffffff; text-align: center; font-size:8pt;">© Copyright 2017 <a href="http://www.glocalnow.com" target="_Blank">Glocal s.r.l</a></p>
+                </div>
+            </div><!-- row -->
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-xs-12"><hr></div>
+        <div class="col-xs-12 col-sm-4">
+            <ul>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+</div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/lightbox.js' %}"></script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88153008-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+
+  </body>
+</html>

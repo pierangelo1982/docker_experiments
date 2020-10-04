@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+
+{% block personalizzato %}
+<style type="text/css">
+.logo-footer {
+	margin-left:110px;
+}
+</style>
+{% endblock %}
+
+
+{% block content %}
+
+
+<div id="page-content-wrapper" style="padding-right:0px;">
+
+	{% include 'components/avvisi.html' %}
+
+
+		<div class="container-fluid">{% load staticfiles %}
+			<div class="row">
+
+
+				<section id="contenuto">
+
+					<div class="tp-banner-container">
+							<div class="tp-banner" >
+								<ul>
+									<!-- SLIDE  -->
+									<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+										<!-- MAIN IMAGE -->
+										<img src="{% static 'img/finiture-slider.jpg' %}"  alt=""  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+									</li>
+								</ul>
+							</div>
+						</div>
+
+
+						<script type="text/javascript">
+						  jQuery(document).ready(function() 
+						  {
+						    jQuery('.tp-banner').revolution(
+						    {
+						      delay:4000,
+						      startwidth:1000,
+						      startheight:300,
+						      hideThumbs:10,
+						      navigationStyle:"bullet",
+						    });
+						  });
+						</script>
+
+	
+
+					<div class="col-xs-12 col-sm-8" style="padding-left:20px; padding-top:10px;">
+						<h1 style="padding-left:20px;">
+							{% if session_language = 'en' %}FINISHES{% else %}FINITURE{% endif %}
+							<br>
+						</h1><br>
+						{% for color in colori_list%}
+	                	<div class="col-xs-12 col-sm-3">{% load cropping %}
+	            			<img src="{% cropped_thumbnail color "thumb" %}" class="img-responsive img-colore">
+	            		</div>
+	            		<div class="col-xs-12 col-sm-9">
+	            			<h2 class="txt-color-dettaglio-color">
+	            				{% if session_language = 'en' %}
+	            					{{color.name}}
+	            				{% else %}
+	            					{{color.name}}
+	            				{% endif %}
+	            			</h2>
+	            		</div>
+	            		<!-- end colore -->
+	            		<div class="col-xs-12"><hr></div>
+	            		{% endfor %}
+	                </div>
+
+
+	                <div class="col-xs-12 col-sm-4 price-column" style="padding-left:20px; padding-top:60px; text-align: right;">
+
+	                </div>
+
+					</div>
+
+				</section>
+
+
+
+			</div><!-- row -->
+		</div><!-- container fluid -->
+
+
+</div><!-- page wrapper -->
+
+{% endblock %}
+
+
+{% block footerjs %}
+   
+{% endblock %}

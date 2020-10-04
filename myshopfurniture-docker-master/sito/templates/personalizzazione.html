@@ -1,0 +1,177 @@
+{% extends 'base.html' %}
+
+{% block personalizzato %}
+<style type="text/css">
+.logo-footer {
+	margin-left:110px;
+}
+</style>
+{% endblock %}
+
+
+{% block content %}
+
+
+<div id="page-content-wrapper" style="padding-right:0px;">
+	
+	{% include 'components/avvisi.html' %}
+
+
+	<form class="white-row" action="{% url 'personalizzazione-add' %}" method="POST">{% csrf_token %}
+
+		<input type="hidden" name="product" value="{{product.id}}">
+
+		<div class="container-fluid">
+			<div class="row">
+
+
+				<section id="contenuto">
+
+					{% include 'components/slider-dettaglio.html' %}
+
+					<div class="col-xs-12 col-sm-8" style="padding-left:20px; padding-top:10px;">
+						<h4 class="scritta-personalizza">
+							{% if session_language = 'en' %}
+							CUSTOMIZE COMPOSITION (PRICE QUOTE UPDATED):
+							{% else %}
+							PERSONALIZZA LA COMPOSIZIONE (PREZZO PREVENTIVO AGGIORNATO):
+							{% endif %}
+						</h4>
+	                	<h1 style="padding-left:20px;">
+	                		{% if session_language = 'en' %} 
+	                			{{product.name_uk}}
+	                		{% else %}
+	                			{{product.name}}
+	                		{% endif %}
+	                	</h1>
+	                	<p style="text-align: justify; font-size: 10pt; padding-left: 20px;">
+	                		{% if session_language = 'en' %}
+	                			{{product.descrizione_uk|safe}}
+	                		{% else %}
+	                			{{product.descrizione|safe}}
+	                		{% endif %}
+	                	</p>
+
+	                	<!-- colore -->
+	                	<div class="col-xs-12"><hr></div>
+	                	<div class="col-xs-12" style="padding:0px;">
+		            		<div class="col-xs-12 col-sm-3">{% load cropping %}
+		            			<img src="{% cropped_thumbnail product.color.first "thumb" %}" class="img-responsive img-colore">
+		            		</div>
+		            		<div class="col-xs-12 col-sm-9"><h3 class="txt-color-dettaglio">{{product.color.first.name}}</h3></div>
+		            		<!-- end colore -->
+	            		</div>
+						<div class="col-xs-12"><hr></div>
+
+	                	<p style="text-align: justify; font-size: 10pt; padding-left: 20px; padding-top:20px;">
+	                		<label>
+	                			{% if session_language = 'en' %}
+	                			Enter the Square Metres of Your building:
+	                			{% else %}
+	                			Inserisci i Metri Quadri del Tuo Locale:
+	                			{% endif %}
+	                		</label>
+	                		<input name="metriq" type="number" min="0" step="1" value="0" class="form-control input-pezzi"/>
+	                	</p>
+	                	<p style="text-align: justify; font-size: 10pt; padding-left: 20px;">
+	                		<label>
+	                			{% if session_language = 'en' %}
+	                			The updated estimate (according to your requirements) will be sent to this email address:
+	                			{% else %}
+	                			Il preventivo aggiornato (secondo tue richieste) verrà inviato a questo indirizzo email:
+	                			{% endif %}
+	                		</label>
+	                		<input name="email_user" type="text" class="form-control input-email" placeholder="your@email.com"required />
+	                	</p>
+	                	<p style="text-align: justify; font-size: 10pt; padding-left: 20px;">
+	                		<label>
+	                			{% if session_language = 'en' %}
+	                			Shipping Address:
+	                			{% else %}
+	                			Indirizzo Spedizione:
+	                			{% endif %}
+	                		</label>
+	                		<textarea rows="3" name="user_indirizzo" type="text" class="form-control input-email" placeholder="Nome/Azienda, Indirizzo, Cap - Città, Nazione" required /></textarea></br><br>
+	                	</p>
+	                	<section id="moduli">
+	                		{% include 'components/moduli_personalizza.html' %}
+	                	</section>
+
+	                	<div class="col-xs-12">
+	                		<div class="col-xs-12 col-md-5">
+	                			<p class="invia-richiesta-text">
+	                				{% if session_language = 'en' %}
+	                				"Send Request" allows you to get an updated quote according to your needs / requests.<br>
+	                				You will receive a reply via email within 48 / h by request.
+	                				{% else %}
+	                				"Invia Richiesta" ti permette di ricevere un preventivo aggiornato secondo le tue esigenze/richieste.<br>
+	                				Riceverai una risposta tramite mail entro 48/h dalla richiesta.
+	                				{% endif %}
+	                		</div>
+							<div class="col-xs-12 col-md-7" style="text-align: right;margin-top:-30px;">
+								<button class="btn btn-ordina">
+									{% if session_language = 'en' %}
+									SEND REQUEST
+									{% else %}
+									INVIA RICHESTA
+									{% endif %}
+								</button>
+							</div>
+						</div>
+	                </div>
+
+
+	                <div class="col-xs-12 col-sm-4 price-column" style="padding-left:20px; padding-top:60px; text-align: right;">
+
+	                	<button class="btn btn-add-cart">
+	                		{% if session_language = 'en' %}
+									SEND REQUEST
+									{% else %}
+									INVIA RICHESTA
+									{% endif %}
+	                	</button>
+
+	                	<section id="rx-dettaglio">
+	                		{% if session_language = 'en' %}
+	                		<a href="" data-toggle="modal" data-target=".pagina4"><H3>TERMS<BR>OF SALE</h3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina8"><h3>SHIPPING FEES</h3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina9"><h3>PAYMENT MODE</h3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina5"> <H3>HIRE PURCHASE</H3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina-richiesta">
+	                			<H3>CUSTUMIZED<br>SHOP DESIGN</h3>
+	                		</a>
+
+	                		{% else %}
+	                		<a href="" data-toggle="modal" data-target=".pagina4"><H3>CONDIZIONI<BR>DI VENDITA'</h3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina8"><h3>SPESE DI SPEDIZIONE</h3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina9"><h3>MODALITA' DI PAGAMENTO</h3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina5"> <H3>PAGAMENTO DILAZIONATO</H3></a>
+	                		<a href="" data-toggle="modal" data-target=".pagina-richiesta">
+	                			<H3>PERSONALIZZAZIONE<br>DESIGN NEGOZIO</h3>
+	                		</a>
+	                		{% endif %}
+	                	</div>
+
+					</div>
+
+				</section>
+
+			</div><!-- row -->
+		</div><!-- container fluid -->
+
+
+	</form>
+</div><!-- page wrapper -->
+
+{% include 'components/modal_pagine.html' %}
+
+{% include 'components/modal_richiesta.html' %}
+
+
+
+{% endblock %}
+
+
+{% block footerjs %}
+   
+{% endblock %}

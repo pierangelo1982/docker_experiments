@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+
+
+{% block personalizzato %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
+
+<!-- Your scripts-->
+<script type='text/javascript'>
+$(document).ready(function () {
+    $("#logino").validate({
+    //debug: true,
+    rules: {
+        "email": {required: true},  //added this
+        "username": {required: true},
+        "password": {required: true}
+        },
+        messages: {
+            denominazione: {
+                required: "compila il campo"
+            },
+            username: {
+                required: "compila il campo"
+            },
+            password:{
+                required: "compila il campo"
+            }
+        }
+    });
+});
+</script>
+{% endblock %}
+
+{% block yellowline %}
+<div class="col-xs-12 banding-yellow"></div>
+{% endblock %}
+
+{% block content %}
+<section id="registra" style="padding-top: 150px;">
+    <div class="container">
+            {% include 'components/avvisi.html' %}
+
+        <div class="col-xs-12">
+            <form id="logino" method="post" action="{% url 'add-user' %}">
+                
+                <div class="col-xs-12 col-sm-12">
+                        <h3 style="padding-left:12px;">Dati Login</h3>
+                        <div class="form-group col-xs-12 col-sm-6">{% csrf_token %}
+                            <label for="exampleInputEmail1">Username</label>
+                             <input type="text" value="" data-msg-required="Inserisci il Nome Utente" data-msg-email="Inserisci il Nome Utente" maxlength="100" class="form-control" name="username" id="contact_phone" required>
+                        </div>
+                        <div class="form-group col-xs-12 col-sm-6">
+                            <label for="exampleInputEmail1">Password</label>
+                            <input type="text" value="" data-msg-required="Inserisci Password" data-msg-email="Inserisci una email valida" maxlength="100" class="form-control" name="password" id="contact_phone" required>
+                        </div>
+
+                        <div class="form-group col-xs-12 col-sm-4">{% csrf_token %}
+                            <label for="exampleInputEmail1">Contact mail</label>
+                             <input type="text" value="" data-msg-required="Inserisci una email valida" data-msg-email="Inserisci una email valida" maxlength="100" class="form-control" name="email" id="contact_phone" required>
+                        </div>
+                </div>
+
+
+            <div class="col-xs-12"><hr></div>
+
+                <div class="col-xs-12">
+                <div class="col-xs-12 col-sm-6">
+                    <h3>Dati di Fatturazione</h3>
+                    {% include 'form/fatturazione.html' %}
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6">
+                    <h3>Dati di Spedizione</h3>
+                    {% include 'form/spedizione.html' %}
+                </div>
+            </div>
+
+                <div class="col-xs-12 text-center">
+                    <button type="submit" class="btn btn-default btn btn-ordina">Registrati</button>
+                    <input type="hidden" name="next" value="{{ next }}" />
+                </div>
+            </form>
+
+        </div> <!-- row -->
+
+        
+
+            <div class="col-xs-12 col-sm-3"></div>
+            <div class="col-xs-12 col-sm-6">
+                <p>
+                    <br>
+                    <br>
+                    Accedendo al portale si accettano i <a href="{% url 'pagina-dettaglio' session_language 7 %}">termini e le condizioni d'uso</a><br>
+                    Questo sito utilizza cookies tecnici e previo il tuo consenso cookies di profilazione.<br>
+                    <a href="#">Maggiori Info...</a>
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-3"></div>
+
+    </div> <!-- container -->
+</section>
+
+{% endblock %}
+

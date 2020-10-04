@@ -1,0 +1,10 @@
+<div id="tab-video" class="tab-content">
+	{% for video in video_list %}
+	<div class="tab-pane" id="video{{video.id}}">
+		<div id="videox" class="embed-responsive embed-responsive-16by9">
+			<iframe id="videox" class="embed-responsive-item" src="https://www.youtube.com/embed/{{video.code}}?rel=0" allowfullscreen></iframe>
+        </div>
+	</div>
+	{% endfor %}
+</div>
+

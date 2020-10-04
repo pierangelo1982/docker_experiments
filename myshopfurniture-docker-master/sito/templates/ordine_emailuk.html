@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>ORDER</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </head>
+
+  <style type="text/css">
+#footer a,
+#footer a:link {
+	color: #ffffff;
+}
+  </style>
+    <body>
+
+
+
+
+
+<div class="container" style="background-color: #ffffff; width:800px;">
+	<div class="col-xs-12" style="background-color:#000000; height:40px;"><br></div>
+	<br>
+	<br>
+	<br>
+	<span style="text-align: center; margin-top: 30px; margin-bottom:30px;"><img src="http://www.myshopfurniture.com/static/img/logo.png" style="width: 400px;"></span>
+	<br>
+	<br>
+
+	<div class="col-xs-12" style="margin-left:0px; padding-left:0px;">
+		<div class="col-xs-8" style="margin-left:0px; padding-left:0px;">
+			<h5 style="background-color: #d9d9d9; padding:5px;">Request effectuated: {{ordine.pub_date}}</h5>
+			<h5 style="background-color: #d9d9d9; padding:5px;">ID order: {{ordine.id}}</h5>
+			<h5 style="background-color: #d9d9d9; padding:5px;">by: {{ordine.user.username}}</h5>
+		</div>
+		<div class="col-xs-4"></div>
+	</div>
+
+	<div class="col-xs-6" style="margin-left:0px; padding-left:0px;">
+		<p style="padding-left:0px; text-align: left">
+			{% if consegna %}
+			<br>
+			<br>
+			<strong>Delivery Address</strong><br>
+			{{consegna.first.denominazione}}<br>
+			{{consegna.first.indirizzo}}<br>
+			{{consegna.first.cap}} - {{consegna.first.citta}}<br>
+			Tel. {{consegna.telefono}}<br>
+			email. {{fatturazione.user.email}}<br>
+			<br>
+			{% endif %}
+		</p>
+	</div>
+
+	<div class="col-xs-6">
+		<p style="text-align: right">
+			<br>
+			<br>
+			<strong>Customer Data</strong><br>
+			{{fatturazione.denominazione}}<br>
+			{{fatturazione.indirizzo}}<br>
+			{{fatturazione.cap}} - {{fatturazione.citta}}<br>
+			Tel. {{fatturazione.telefono}}<br>
+			email. {{fatturazione.user.email}}<br>
+			<br>
+		</p>
+	</div>
+	
+	<div class="col-xs-12" style="padding-left:0px; padding-right:0px;">
+		<h5 style="background-color: #dfdb00; padding:5px;">
+			delivery expected: 16/01/2017
+		</h5>
+	</div>
+	{% for item in ordine.orderitem_set.all %}
+	{% load cropping %}
+	<img src="{% cropped_thumbnail item.product "slider" %}" class="img-responsive">  
+	<!--img src="http://test.myshopfurniture.com/media/{{personalizza.product.image}}" class="img-responsive"-->
+	
+	<h2>{{item.product.name_uk}}</h2>
+	<h4>Material: {{item.product.color.first}}</h4><br>
+	<table class="table table-striped">
+	  <tr>
+	      <th>img</th>
+	      <th>Modulo</th>
+	      <th>Quantità</th>
+	  </tr>
+
+	 {% for mod in item.product.composition_set.all %}
+	  <tr>
+	    <td>
+	      {% load cropping %}
+	      <img src="http://wwww.myshopfurniture.com/media/{{mod.modulo.image}}" style="width:200" width="200">
+	    </td>
+	    <td>
+	    	<strong>{{mod.name_uk}}</strong><br><br>
+	    	<strong>Size:</strong><br>
+			{% if mod.modulo.width %}<strong>Width:</strong> {{mod.modulo.width}} | {% endif %}
+			{% if mod.modulo.depth %}<strong>depth:</strong> {{mod.modulo.depth}} | {% endif %}
+			{% if mod.modulo.height %}<strong>Height:</strong> {{mod.modulo.height}} | {% endif %}
+	    </td>
+	    <td>{{mod.quantity}}</td>
+	  </tr>
+	{% endfor %}
+	</table>
+{% endfor %}
+<br>
+<br>
+<br>
+<br>
+
+<div id="footer" class="col-xs-12" style="background-color:#000000;padding-top:20px;padding-bottom:50px;">
+	<div class="col-xs-4">
+		<img src="http://www.myshopfurniture.com/static/img/logo_bianco.png" class="img-responsive">
+	</div>
+	<div class="col-xs-8">
+		<p style="color:#ffffff; float:right;">
+			myshopfurmiture.com
+		</p>
+	</div>
+</div>
+</div>
+
+    </body>
+</html>

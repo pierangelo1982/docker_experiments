@@ -1,0 +1,28 @@
+<div class="tp-banner-container">
+	<div class="tp-banner" >
+		<ul>
+			<!-- SLIDE  -->
+      {% for gallery in product.gallery.all %}
+			<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+				<!-- MAIN IMAGE -->{% load cropping %}
+				<img src="{% cropped_thumbnail gallery "slider" %}"  alt="{{product.name}}"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" title="{{product.name}}" alt="{{product.name}}">
+			</li>
+      {% endfor %}
+		</ul>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+  jQuery(document).ready(function() 
+  {
+    jQuery('.tp-banner').revolution(
+    {
+      delay:4000,
+      startwidth:1000,
+      startheight:556,
+      hideThumbs:10,
+      navigationStyle:"bullet",
+    });
+  });
+</script>

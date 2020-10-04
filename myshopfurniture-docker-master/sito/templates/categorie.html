@@ -1,0 +1,43 @@
+
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+
+
+
+<!-- Page Content -->
+<div id="page-content-wrapper" style="padding-right:0px;">
+	<div class="container-fluid">
+    	<div class="row">
+
+
+    		<div id="video" class="col-xs-12 hidden-sm hidden-md col-lg-3">{% include 'components/video-list.html' %}</div>
+    		    		
+    		<div id="immagini" class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
+                <div class="col-xs-12">
+                    <h1 style="text-transform: uppercase; margin-top:0px; padding-left:0px; font-family: 'Fjalla One', sans-serif;
+                    border-bottom-width:3px;border-bottom-style:solid; border-color:#ffffff; padding-bottom:5px;">
+                    {% if session_language = 'en' %}
+                        {{category.title_uk}} SHOP
+                    {% else %}
+                        NEGOZI {{category.title}}
+                    {% endif %}
+                    </h1>
+                </div>
+    			<div class="col-xs-12" style="margin-top:20px;">{% include 'components/slider.html' %}</div>
+    			<div class="col-xs-12">{% include 'components/negozi_home.html' %}</div>
+    		</div>
+
+
+
+
+
+		</div><!-- row -->
+	</div><!-- container fluid -->
+</div><!-- page-content-wrapper-->
+
+
+
+{% endblock %}

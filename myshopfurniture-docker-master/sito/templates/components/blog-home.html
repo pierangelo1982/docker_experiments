@@ -1,0 +1,13 @@
+
+
+{% for blog in blog_list %}
+<div class="col-xs-12">
+<h4><strong>{{blog.title}}</strong></h4>
+<p style="font-size:12px;">
+	{{blog.body|safe|truncatechars:140}}<br>
+	<span class="link-blog" style="float:right"><a href="{% url 'blog-dettaglio' session_language blog.id %}">continua...</a></span>
+</p>
+<hr>
+<p>&nbsp;</p>
+</div>
+{% endfor %}

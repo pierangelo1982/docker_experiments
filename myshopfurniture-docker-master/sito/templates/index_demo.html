@@ -1,0 +1,59 @@
+
+{% extends 'base_demo.html' %}
+
+
+
+{% block content %}
+
+
+
+<!-- Page Content -->
+<div id="page-content-wrapper" style="padding-right:0px;">
+	<div class="container-fluid" style="padding-right:0px;">
+    	<div class="row">
+
+
+    		<!--div id="video" class="hidden-xs hidden-sm hidden-md col-lg-3">
+                {% include 'components/video-list.html' %}
+                {% include 'components/newsletter.html' %}
+                {% include 'components/richiesta_home.html' %}
+                {% if blog_list %}
+                {% include 'components/blog-home.html' %}
+                {% endif %}
+            </div-->
+
+    		{% include 'components/avvisi.html' %}
+
+    		{% include 'components/tab-video.html' %}
+
+            {% include 'components/slider.html' %}
+
+
+    		<div id="immagini" class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="background-color: #ffffff;">
+    			<div class="col-xs-12">{% include 'components/negozi_home.html' %}</div>
+    		</div>
+
+            <div class="col-xs-12 col-sm-6">
+                {% for m in moduli_list %}
+                <div class="col-xs-12 col-sm-4" style="margin-top:20px;">
+                    <img src="/media/{{m.image}}" class="img-responsive" style="border-radius: 10px;">
+                </div>
+                {% endfor %}
+            </div>
+
+
+            <div class="col-xs-12" style="background-color: #dfdb00;">
+                {% include 'components/video-list_demo.html' %}
+            </div>
+
+
+
+
+
+		</div><!-- row -->
+	</div><!-- container fluid -->
+</div><!-- page-content-wrapper-->
+
+
+
+{% endblock %}

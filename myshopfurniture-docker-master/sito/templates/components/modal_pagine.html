@@ -1,0 +1,28 @@
+
+{% for page in page_list %}
+<div class="modal fade bs-example-modal-lg pagina{{page.id}}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content" style="padding-left:20px; padding-right:20px;">
+    	<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" style="text-align: center">
+            <span style="border-bottom-width:3px;border-bottom-style:solid; border-color:#dfdb00; padding-bottom:5px;">
+              {% if session_language = 'en' %}
+                {{page.title_uk}}
+              {% else %}
+                {{page.title}}
+              {% endif %}
+            </span>
+          </h4>
+      </div>
+      <p class="p-modal-page">
+        {% if session_language = 'en' %}
+            {{page.body_uk|safe}}
+        {% else %}
+      	   {{page.body|safe}}
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</div>
+{% endfor %}

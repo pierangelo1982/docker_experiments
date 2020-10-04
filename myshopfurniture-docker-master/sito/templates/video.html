@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div id="page-content-wrapper" style="padding-right:0px;">
+
+	<div class="container-fluid">
+		<div class="row">
+
+		<section id="contenuto">
+			<div class="col-xs-12 col-sm-8" style="padding-left:20px; padding-top:10px;">
+		        
+		        <div class="col-xs-12">
+		             <h1 style="text-transform: uppercase; margin-top:0px; padding-left:0px; font-family: 'Fjalla One', sans-serif;
+	                    border-bottom-width:3px;border-bottom-style:solid; border-color:#ffffff; padding-bottom:5px;">
+	                        VIDEO
+	                  </h1>
+	              </div>
+
+					{% for video in video_list %}
+					<div class="col-xs-12 col-sm-12 col-md-6">
+						<div id="videox" class="embed-responsive embed-responsive-16by9">
+							<iframe id="videox" class="embed-responsive-item" src="https://www.youtube.com/embed/{{video.code}}?rel=0" allowfullscreen></iframe>
+				        </div>
+				        <h5>{{video.title}}</h5>
+				        <br>
+					</div>
+					{% endfor %}
+			</div>
+		</section>
+
+		<div class="col-xs-12 col-sm-4 price-column" style="padding-left:20px; padding-top:60px; text-align: right;"></div>
+
+
+
+		</div>
+	</div>
+
+</div>
+{% endblock %}

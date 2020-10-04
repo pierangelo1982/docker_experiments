@@ -1,0 +1,2598 @@
+[
+  {
+    "model": "product.moduli",
+    "pk": 1,
+    "fields": {
+      "name": "modulo base cassetti + antine (Bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0022.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x90",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 90,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_base_cassetti__antine.pdf",
+      "pub_date": "2016-11-30T16:22:00Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 2,
+    "fields": {
+      "name": "modulo base cassetti + antine (Tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0022.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x90",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 90,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_base_cassetti__antine.pdf",
+      "pub_date": "2016-11-30T10:22:11Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 3,
+    "fields": {
+      "name": "modulo base cassetti + antine (Legno Vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0022.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x90",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 90,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_base_cassetti__antine.pdf",
+      "pub_date": "2016-11-30T16:22:21Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 7,
+    "fields": {
+      "name": "specchio h 172 (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0039.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x172",
+      "width": 50,
+      "lenght": 50,
+      "depth": null,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/specchio_h_172_cm.pdf",
+      "pub_date": "2016-11-30T10:23:29Z",
+      "active": true,
+      "slide": true,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 8,
+    "fields": {
+      "name": "specchio h 172 (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0039.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x172",
+      "width": 50,
+      "lenght": 50,
+      "depth": null,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/specchio_h_172_cm.pdf",
+      "pub_date": "2016-11-30T10:23:45Z",
+      "active": true,
+      "slide": true,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 9,
+    "fields": {
+      "name": "specchio h 172 (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0039.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x172",
+      "width": 50,
+      "lenght": 50,
+      "depth": null,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/specchio_h_172_cm_Tve4soi.pdf",
+      "pub_date": "2016-11-30T10:24:03Z",
+      "active": true,
+      "slide": true,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 10,
+    "fields": {
+      "name": "tavolo ponte con teche (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0043.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "200x50x92",
+      "width": 200,
+      "lenght": 200,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/tavolo_ponte_con_teche.pdf",
+      "pub_date": "2016-11-30T16:24:20Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 11,
+    "fields": {
+      "name": "tavolo ponte con teche (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0043.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "200x50x92",
+      "width": 200,
+      "lenght": 200,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/tavolo_ponte_con_teche.pdf",
+      "pub_date": "2016-11-30T16:24:41Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 12,
+    "fields": {
+      "name": "tavolo ponte con teche (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0043.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "200x50x92",
+      "width": 200,
+      "lenght": 200,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/tavolo_ponte_con_teche.pdf",
+      "pub_date": "2016-11-30T16:25:02Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 13,
+    "fields": {
+      "name": "elemento espositore cassetti con teca doppia (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0034.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x50x92",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_cassetti_con_teca_doppia.pdf",
+      "pub_date": "2016-11-30T16:25:26Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 14,
+    "fields": {
+      "name": "elemento espositore cassetti con teca doppia (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0034.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x50x92",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_cassetti_con_teca_doppia.pdf",
+      "pub_date": "2016-11-30T10:25:45Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 15,
+    "fields": {
+      "name": "elemento espositore cassetti con teca doppia (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0034.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x50x92",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_cassetti_con_teca_doppia.pdf",
+      "pub_date": "2016-11-30T10:26:37Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 16,
+    "fields": {
+      "name": "Lampada a sospensione 150cm",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/lampasosp.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "150",
+      "width": null,
+      "lenght": null,
+      "depth": null,
+      "height": 150,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/lampada_a_sospensione_150_cm.pdf",
+      "pub_date": "2016-11-30T16:26:24Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 17,
+    "fields": {
+      "name": "lampada a sospensione parete 130 cm",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_0041.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "130",
+      "width": null,
+      "lenght": null,
+      "depth": null,
+      "height": 130,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/lampada_a_sospensione_con_braccio_130_cm.pdf",
+      "pub_date": "2016-11-30T10:27:01Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 18,
+    "fields": {
+      "name": "mensola con teca (bianca)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0036.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x50x50",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 50,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/mensola_con_teca.pdf",
+      "pub_date": "2016-11-30T16:27:13Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 19,
+    "fields": {
+      "name": "mensola con teca (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0036.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x50x50",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 50,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/mensola_con_teca.pdf",
+      "pub_date": "2016-11-30T16:27:25Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 20,
+    "fields": {
+      "name": "mensola con teca (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0036.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x50x50",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 50,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/mensola_con_teca_CsJ2jmS.pdf",
+      "pub_date": "2016-11-30T10:27:40Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 21,
+    "fields": {
+      "name": "modulo a sospensione porta grafica (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/grafica_CB.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "90x20x115",
+      "width": 90,
+      "lenght": 90,
+      "depth": 20,
+      "height": 115,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_a_sospensione_porta_grafica.pdf",
+      "pub_date": "2016-11-30T16:28:00Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 22,
+    "fields": {
+      "name": "modulo a sospensione porta grafica (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/grafica_CT.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "90x20x115",
+      "width": 90,
+      "lenght": 90,
+      "depth": 20,
+      "height": 115,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_a_sospensione_porta_grafica_qnwZQMt.pdf",
+      "pub_date": "2016-11-30T16:28:17Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 23,
+    "fields": {
+      "name": "modulo a sospensione porta grafica (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/grafica_LV.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "90x20x115",
+      "width": 90,
+      "lenght": 90,
+      "depth": 20,
+      "height": 115,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_a_sospensione_porta_grafica_BtrUVQK.pdf",
+      "pub_date": "2016-11-30T10:28:31Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 24,
+    "fields": {
+      "name": "modulo base antine (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0023.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x90",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 90,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_base_antine.pdf",
+      "pub_date": "2016-11-30T16:28:46Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 25,
+    "fields": {
+      "name": "modulo base antine (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0023.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x90",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 90,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_base_antine_sDE5p5x.pdf",
+      "pub_date": "2016-11-30T16:29:03Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 26,
+    "fields": {
+      "name": "modulo base antine (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0023.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x90",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 90,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_base_antine_D9IcbF6.pdf",
+      "pub_date": "2016-11-30T16:29:18Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 27,
+    "fields": {
+      "name": "modulo espositivo base a giorno + alzata ripiani (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0002.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_a_giorno__alzata_ripiani.pdf",
+      "pub_date": "2016-11-30T16:29:32Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 28,
+    "fields": {
+      "name": "modulo espositivo base a giorno + alzata ripiani (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0002.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_a_giorno__alzata_ripiani.pdf",
+      "pub_date": "2016-11-30T10:29:46Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 29,
+    "fields": {
+      "name": "modulo espositivo base a giorno + alzata ripiani (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0002.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_a_giorno__alzata_ripiani.pdf",
+      "pub_date": "2016-11-30T16:30:00Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 30,
+    "fields": {
+      "name": "elemento espositore antina con teca doppia (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0033.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_antina_con_teca_doppia.pdf",
+      "pub_date": "2016-11-30T16:30:16Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 31,
+    "fields": {
+      "name": "elemento espositore antina con teca doppia (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0033.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_antina_con_teca_doppia.pdf",
+      "pub_date": "2016-11-30T10:30:35Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 32,
+    "fields": {
+      "name": "elemento espositore antina con teca doppia (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0033.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_antina_con_teca_doppia.pdf",
+      "pub_date": "2016-11-30T16:31:08Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 33,
+    "fields": {
+      "name": "mensola con cassetto (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0037.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 15,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/mensola_con_cassetto.pdf",
+      "pub_date": "2016-11-30T16:31:23Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 34,
+    "fields": {
+      "name": "mensola con cassetto (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0037.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 15,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/mensola_con_cassetto.pdf",
+      "pub_date": "2016-11-30T16:31:35Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 35,
+    "fields": {
+      "name": "mensola con cassetto (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0037.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 15,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/mensola_con_cassetto_EineDdv.pdf",
+      "pub_date": "2016-11-30T10:31:51Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 36,
+    "fields": {
+      "name": "modulo espositivo base antine + alzata mensole occhiali (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0019.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 72,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_antine__alzata_mensole_occhiali.pdf",
+      "pub_date": "2016-11-30T16:32:13Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 37,
+    "fields": {
+      "name": "modulo espositivo base antine + alzata mensole occhiali (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0019.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_antine__alzata_mensole_occhiali.pdf",
+      "pub_date": "2016-11-30T10:32:29Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 38,
+    "fields": {
+      "name": "modulo espositivo base antine + alzata mensole occhiali (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0019.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_antine__alzata_mensole_occhiali_vLOivF2.pdf",
+      "pub_date": "2016-11-30T16:32:48Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 39,
+    "fields": {
+      "name": "modulo espositivo base cassetti + alzata a giorno (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0016.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_cassetti__alzata_a_giorno.pdf",
+      "pub_date": "2016-11-30T10:33:03Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 40,
+    "fields": {
+      "name": "modulo espositivo base cassetti + alzata a giorno (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0016.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_cassetti__alzata_a_giorno.pdf",
+      "pub_date": "2016-11-30T16:33:18Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 41,
+    "fields": {
+      "name": "modulo espositivo base cassetti + alzata a giorno (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0016.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_cassetti__alzata_a_giorno.pdf",
+      "pub_date": "2016-11-30T16:33:37Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 42,
+    "fields": {
+      "name": "modulo espositivo base cassetti + alzata mensole occhiali (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0020.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_cassetti__alzata_mensole_occhiali.pdf",
+      "pub_date": "2016-11-30T10:34:32Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 43,
+    "fields": {
+      "name": "modulo espositivo base cassetti + alzata mensole occhiali (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0020.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_cassetti__alzata_mensole_occhiali.pdf",
+      "pub_date": "2016-11-30T16:34:14Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 44,
+    "fields": {
+      "name": "modulo espositivo base cassetti + alzata mensole occhiali (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0020.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_cassetti__alzata_mensole_occhiali.pdf",
+      "pub_date": "2016-11-30T16:33:56Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 45,
+    "fields": {
+      "name": "tavolo ponte con cassetti e piani in vetro retroilluminati (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0042.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "200x50x92",
+      "width": 200,
+      "lenght": 200,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/tavolo_ponte_con_cassetti_e_piani_in_vetro_retroilluminati.pdf",
+      "pub_date": "2016-11-30T16:35:00Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 46,
+    "fields": {
+      "name": "tavolo ponte con cassetti e piani in vetro retroilluminati (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0042.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "200x50x92",
+      "width": 200,
+      "lenght": 200,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/tavolo_ponte_con_cassetti_e_piani_in_vetro_retroilluminati_jtMIfI2.pdf",
+      "pub_date": "2016-11-30T16:35:15Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 47,
+    "fields": {
+      "name": "elemento espositore antina con teca (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0030.jpg",
+      "slider": "0,339,1600,1229",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 127,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_antina_con_teca.pdf",
+      "pub_date": "2016-11-30T16:35:33Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 48,
+    "fields": {
+      "name": "elemento espositore antina con teca (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0030.jpg",
+      "slider": "0,339,1600,1229",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 127,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_antina_con_teca.pdf",
+      "pub_date": "2016-11-30T16:35:55Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 49,
+    "fields": {
+      "name": "elemento espositore antina con teca (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0030.jpg",
+      "slider": "0,339,1600,1229",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 127,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_antina_con_teca.pdf",
+      "pub_date": "2016-11-30T10:36:14Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 50,
+    "fields": {
+      "name": "modulo espositivo base antine + alzata nicchia doppia (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0011.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_antine__alzata_nicchia_doppia_0Zm0m4L.pdf",
+      "pub_date": "2016-11-30T10:36:35Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 51,
+    "fields": {
+      "name": "modulo espositivo base antine + alzata nicchia doppia (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0011_OdjDIK2.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_antine__alzata_nicchia_doppia_HUve7ut.pdf",
+      "pub_date": "2016-11-30T10:36:52Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 52,
+    "fields": {
+      "name": "modulo espositivo base antine + alzata nicchia doppia (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0011.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_antine__alzata_nicchia_doppia_XamVXyt.pdf",
+      "pub_date": "2016-10-08T18:11:59Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 53,
+    "fields": {
+      "name": "modulo espositivo base antine + alzata nicchia semplice (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0007.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_antine__alzata_nicchia_semplice.pdf",
+      "pub_date": "2016-10-08T18:14:44Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 54,
+    "fields": {
+      "name": "modulo espositivo base antine + alzata nicchia semplice (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0007.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_antine__alzata_nicchia_semplice_mtZFBb8.pdf",
+      "pub_date": "2016-11-30T10:37:31Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 55,
+    "fields": {
+      "name": "modulo espositivo base antine + alzata nicchia semplice (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0007.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "100x50x172",
+      "width": 100,
+      "lenght": 100,
+      "depth": 50,
+      "height": 172,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/modulo_espositivo_base_antine__alzata_nicchia_semplice_hqEIUZi.pdf",
+      "pub_date": "2016-11-30T10:37:51Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 56,
+    "fields": {
+      "name": "elemento espositore cassetti con piano vetro retroilluminato (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0025.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x50x92",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_cassetti_con_piano_vetro_retroilluminato.pdf",
+      "pub_date": "2016-11-30T10:38:07Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 57,
+    "fields": {
+      "name": "elemento espositore cassetti con piano vetro retroilluminato (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0025.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x50x92",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_cassetti_con_piano_vetro_retroilluminato_B7qwzsf.pdf",
+      "pub_date": "2016-11-30T10:38:25Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 58,
+    "fields": {
+      "name": "elemento espositore cassetti con piano vetro retroilluminato (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0025.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x50x92",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_cassetti_con_piano_vetro_retroilluminato_B7qwzsf.pdf",
+      "pub_date": "2016-11-30T10:38:45Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 59,
+    "fields": {
+      "name": "tavolo ponte con cassetti e piani in vetro retroilluminati (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0042_zBjWymm.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "200x50x92",
+      "width": 200,
+      "lenght": 200,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/tavolo_ponte_con_cassetti_e_piani_in_vetro_retroilluminati_jtMIfI2.pdf",
+      "pub_date": "2016-11-30T10:39:08Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 60,
+    "fields": {
+      "name": "elemento espositore cassetti con teca (bianco)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CB_0031.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x50x92",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_cassetti_con_teca.pdf",
+      "pub_date": "2016-11-30T10:39:35Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 61,
+    "fields": {
+      "name": "elemento espositore cassetti con teca (tortora)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_CT_0031.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x50x92",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_cassetti_con_teca_C9ygVql.pdf",
+      "pub_date": "2016-11-30T10:39:54Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  },
+  {
+    "model": "product.moduli",
+    "pk": 62,
+    "fields": {
+      "name": "elemento espositore cassetti con teca (legno vintage)",
+      "name_uk": "",
+      "code": "",
+      "quantity": 0,
+      "price": "0.00",
+      "discount": 0,
+      "price_offer": "0.00",
+      "image": "product/moduli_LV_0031.jpg",
+      "slider": "0,355,1600,1245",
+      "thumb": "0,221,1600,1377",
+      "thumbdue": "0,202,1600,1400",
+      "croplibero": "0,0,1600,1600",
+      "album": null,
+      "size": "50x50x92",
+      "width": 50,
+      "lenght": 50,
+      "depth": 50,
+      "height": 92,
+      "volume": null,
+      "descrizione": "",
+      "descrizione_uk": "",
+      "allegato": "allegato/elemento_espositore_cassetti_con_teca_f6Pnona.pdf",
+      "pub_date": "2016-11-30T10:40:10Z",
+      "active": true,
+      "slide": false,
+      "promo": false,
+      "category": [
+        
+      ],
+      "video": [
+        
+      ],
+      "color": [
+        
+      ],
+      "material": [
+        
+      ]
+    }
+  }
+]

@@ -1,0 +1,603 @@
+[
+   {
+      "model":"product.product",
+      "pk":1,
+      "fields":{
+         "name":"Negozio Gioielleria",
+         "name_uk":"",
+         "code":"",
+         "quantity":null,
+         "price":"16880.00",
+         "discount":0,
+         "price_offer":"16880.00",
+         "image":"product/composizione_gioielleria_bianco.jpg",
+         "slider":"72,0,1926,1031",
+         "thumb":"287,0,1713,1031",
+         "thumbdue":"311,0,1688,1031",
+         "croplibero":"0,0,2000,1031",
+         "album":null,
+         "size":"",
+         "width":null,
+         "lenght":null,
+         "depth":null,
+         "height":null,
+         "volume":null,
+         "descrizione":"Moduli componibili per la realizzazione di una gioielleria, capaci di arredare il vostro negozio in maniera rapida, in base alle necessit\u00e0 di ciascuno, evidenziando linee di design al passo con le ultime tendenze moderne. Lineari nella forma, forti nella tecnologia, consentono di realizzare spazi espositivi di alto livello. Una soluzione versatile e flessibile per adattarsi ad ogni esigenza e comunicare stile ed emozione ai clienti. Soluzione \"fai da te\"  per acquistare arredamenti moderni e funzionali al fine di allestire il tuo negozio o la possibilit\u00e0 di avvalersi del nostro staff tecnico in grado di progettare la migliore soluzione per la vostra attivit\u00e0 commerciale in relazione alle vostre esigenze.",
+         "descrizione_uk":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa est, bibendum quis enim sed, ornare porttitor tortor. Duis ornare molestie nulla, ultrices porttitor justo bibendum sit amet. Integer mattis dictum nibh, eget posuere arcu maximus blandit. Donec sollicitudin lobortis quam, vel facilisis purus. Quisque hendrerit non felis eget tempus. Nunc gravida tortor ac est mollis posuere. Vestibulum mi massa, viverra ut ipsum quis, vehicula lacinia tellus. In fringilla blandit condimentum. Fusce vehicula euismod tortor quis hendrerit. Etiam et dui sit amet mi bibendum rhoncus. Fusce aliquet erat id metus semper, ac efficitur orci sollicitudin.\r\n\r\nNunc nec consequat orci. Ut dolor neque, sagittis sit amet dui in, imperdiet fermentum quam. Vestibulum in risus accumsan, egestas ex vel, dictum mauris. Suspendisse pretium bibendum volutpat. Pellentesque feugiat eros tortor, nec iaculis tortor ultrices a. Phasellus pulvinar, est convallis tristique placerat, erat lacus aliquam tortor, vitae varius ex lectus posuere augue. In consectetur ex nisi, hendrerit interdum enim ultrices eget. Suspendisse potenti. Nam dapibus malesuada massa, et interdum lacus fermentum sed. Aliquam sodales metus sit amet elementum malesuada. In sapien sapien, interdum ac nibh luctus, viverra volutpat velit. Proin commodo dui in sodales imperdiet. Donec pellentesque auctor suscipit.",
+         "allegato":"allegato/composizione_gioielleria_9rP3vL2.pdf",
+         "pub_date":"2016-12-06T16:14:24Z",
+         "active":true,
+         "slide":true,
+         "promo":false,
+         "category":[
+            1
+         ],
+         "gallery":[
+
+         ],
+         "video":[
+            1
+         ],
+         "color":[
+            1
+         ],
+         "material":[
+
+         ],
+         "moduli":[
+
+         ]
+      }
+   },
+   {
+      "model":"product.product",
+      "pk":2,
+      "fields":{
+         "name":"Negozio Gioielleria",
+         "name_uk":"",
+         "code":"",
+         "quantity":null,
+         "price":"16880.00",
+         "discount":0,
+         "price_offer":"16880.00",
+         "image":"product/composizione_gioielleria_tortora.jpg",
+         "slider":"72,0,1926,1031",
+         "thumb":"287,0,1713,1031",
+         "thumbdue":"311,0,1688,1031",
+         "croplibero":"0,0,2000,1031",
+         "album":null,
+         "size":"",
+         "width":null,
+         "lenght":null,
+         "depth":null,
+         "height":null,
+         "volume":null,
+         "descrizione":"Moduli componibili per la realizzazione di una gioielleria, capaci di arredare il vostro negozio in maniera rapida, in base alle necessit\u00e0 di ciascuno, evidenziando linee di design al passo con le ultime tendenze moderne. Lineari nella forma, forti nella tecnologia, consentono di realizzare spazi espositivi di alto livello. Una soluzione versatile e flessibile per adattarsi ad ogni esigenza e comunicare stile ed emozione ai clienti. Soluzione \"fai da te\"  per acquistare arredamenti moderni e funzionali al fine di allestire il tuo negozio o la possibilit\u00e0 di avvalersi del nostro staff tecnico in grado di progettare la migliore soluzione per la vostra attivit\u00e0 commerciale in relazione alle vostre esigenze.",
+         "descrizione_uk":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis libero at fermentum auctor. Etiam maximus semper eros, ut pulvinar felis pulvinar pulvinar. Sed elementum risus et arcu pulvinar cursus. Etiam sit amet venenatis risus. Praesent lobortis lacus lectus, vitae porttitor tortor varius ac. Sed sed fringilla dui. Sed faucibus cursus iaculis. Etiam a arcu ac odio tincidunt egestas. Etiam maximus justo sit amet diam commodo vehicula. In consequat tellus vitae leo volutpat pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus volutpat dolor quis risus gravida, id eleifend massa congue. Vivamus eget neque vitae sapien rutrum ornare.\r\n\r\nSuspendisse vestibulum urna eros, in semper sapien bibendum vel. Nam viverra mauris sodales aliquet venenatis. Cras congue, felis non tempor auctor, diam metus scelerisque lacus, non varius nisi massa nec velit. Nulla nec finibus erat, nec facilisis augue. Pellentesque pellentesque euismod dolor at venenatis. Cras porttitor vestibulum turpis, id eleifend leo vestibulum molestie. Nulla varius erat semper nisi dapibus, at bibendum neque interdum. Vivamus vel rhoncus tellus, ut lacinia mi. Quisque a egestas purus. Sed dignissim, sem vel elementum fringilla, est magna tempor purus, ut pulvinar enim metus id diam. Duis elementum laoreet est id commodo. Cras placerat eu arcu non malesuada. Pellentesque efficitur nulla odio, quis aliquet neque pulvinar sed. Praesent ullamcorper nisl a arcu convallis facilisis. Aenean et molestie lorem.",
+         "allegato":"allegato/composizione_gioielleria.pdf",
+         "pub_date":"2016-12-06T16:14:07Z",
+         "active":true,
+         "slide":true,
+         "promo":false,
+         "category":[
+            1
+         ],
+         "gallery":[
+
+         ],
+         "video":[
+
+         ],
+         "color":[
+            3
+         ],
+         "material":[
+
+         ],
+         "moduli":[
+
+         ]
+      }
+   },
+   {
+      "model":"product.product",
+      "pk":3,
+      "fields":{
+         "name":"Negozio Gioielleria",
+         "name_uk":"",
+         "code":"",
+         "quantity":null,
+         "price":"16880.00",
+         "discount":0,
+         "price_offer":"16880.00",
+         "image":"product/composizione_gioielleria_legno_vintage.jpg",
+         "slider":"72,0,1926,1031",
+         "thumb":"287,0,1713,1031",
+         "thumbdue":"311,0,1688,1031",
+         "croplibero":"0,0,2000,1031",
+         "album":null,
+         "size":"",
+         "width":null,
+         "lenght":null,
+         "depth":null,
+         "height":null,
+         "volume":null,
+         "descrizione":"Moduli componibili per la realizzazione di una gioielleria, capaci di arredare il vostro negozio in maniera rapida, in base alle necessit\u00e0 di ciascuno, evidenziando linee di design al passo con le ultime tendenze moderne. Lineari nella forma, forti nella tecnologia, consentono di realizzare spazi espositivi di alto livello. Una soluzione versatile e flessibile per adattarsi ad ogni esigenza e comunicare stile ed emozione ai clienti. Soluzione \"fai da te\"  per acquistare arredamenti moderni e funzionali al fine di allestire il tuo negozio o la possibilit\u00e0 di avvalersi del nostro staff tecnico in grado di progettare la migliore soluzione per la vostra attivit\u00e0 commerciale in relazione alle vostre esigenze.",
+         "descrizione_uk":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis libero at fermentum auctor. Etiam maximus semper eros, ut pulvinar felis pulvinar pulvinar. Sed elementum risus et arcu pulvinar cursus. Etiam sit amet venenatis risus. Praesent lobortis lacus lectus, vitae porttitor tortor varius ac. Sed sed fringilla dui. Sed faucibus cursus iaculis. Etiam a arcu ac odio tincidunt egestas. Etiam maximus justo sit amet diam commodo vehicula. In consequat tellus vitae leo volutpat pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus volutpat dolor quis risus gravida, id eleifend massa congue. Vivamus eget neque vitae sapien rutrum ornare.\r\n\r\nSuspendisse vestibulum urna eros, in semper sapien bibendum vel. Nam viverra mauris sodales aliquet venenatis. Cras congue, felis non tempor auctor, diam metus scelerisque lacus, non varius nisi massa nec velit. Nulla nec finibus erat, nec facilisis augue. Pellentesque pellentesque euismod dolor at venenatis. Cras porttitor vestibulum turpis, id eleifend leo vestibulum molestie. Nulla varius erat semper nisi dapibus, at bibendum neque interdum. Vivamus vel rhoncus tellus, ut lacinia mi. Quisque a egestas purus. Sed dignissim, sem vel elementum fringilla, est magna tempor purus, ut pulvinar enim metus id diam. Duis elementum laoreet est id commodo. Cras placerat eu arcu non malesuada. Pellentesque efficitur nulla odio, quis aliquet neque pulvinar sed. Praesent ullamcorper nisl a arcu convallis facilisis. Aenean et molestie lorem.",
+         "allegato":"allegato/composizione_gioielleria.pdf",
+         "pub_date":"2016-12-06T16:13:44Z",
+         "active":true,
+         "slide":true,
+         "promo":false,
+         "category":[
+            1
+         ],
+         "gallery":[
+
+         ],
+         "video":[
+
+         ],
+         "color":[
+            2
+         ],
+         "material":[
+
+         ],
+         "moduli":[
+
+         ]
+      }
+   },
+   {
+      "model":"product.product",
+      "pk":4,
+      "fields":{
+         "name":"Negozio Oggettistica",
+         "name_uk":"",
+         "code":"",
+         "quantity":0,
+         "price":"13136.00",
+         "discount":0,
+         "price_offer":"13136.00",
+         "image":"product/composizione_oggettistica_bianco.jpg",
+         "slider":"74,0,1926,1030",
+         "thumb":"286,0,1712,1030",
+         "thumbdue":"311,0,1686,1030",
+         "croplibero":"0,0,2000,1030",
+         "album":null,
+         "size":"",
+         "width":null,
+         "lenght":null,
+         "depth":null,
+         "height":null,
+         "volume":null,
+         "descrizione":"Moduli componibili per la realizzazione di un negozio di oggettistica, capaci di arredare il vostro negozio in maniera rapida, in base alle necessit\u00e0 di ciascuno, evidenziando linee di design al passo con le ultime tendenze moderne. Lineari nella forma, forti nella tecnologia, consentono di realizzare spazi espositivi di alto livello. Una soluzione versatile e flessibile per adattarsi ad ogni esigenza e comunicare stile ed emozione ai clienti. Soluzione \"fai da te\"  per acquistare arredamenti moderni e funzionali al fine di allestire il tuo negozio o la possibilit\u00e0 di avvalersi del nostro staff tecnico in grado di progettare la migliore soluzione per la vostra attivit\u00e0 commerciale in relazione alle vostre esigenze.",
+         "descrizione_uk":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis libero at fermentum auctor. Etiam maximus semper eros, ut pulvinar felis pulvinar pulvinar. Sed elementum risus et arcu pulvinar cursus. Etiam sit amet venenatis risus. Praesent lobortis lacus lectus, vitae porttitor tortor varius ac. Sed sed fringilla dui. Sed faucibus cursus iaculis. Etiam a arcu ac odio tincidunt egestas. Etiam maximus justo sit amet diam commodo vehicula. In consequat tellus vitae leo volutpat pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus volutpat dolor quis risus gravida, id eleifend massa congue. Vivamus eget neque vitae sapien rutrum ornare.\r\n\r\nSuspendisse vestibulum urna eros, in semper sapien bibendum vel. Nam viverra mauris sodales aliquet venenatis. Cras congue, felis non tempor auctor, diam metus scelerisque lacus, non varius nisi massa nec velit. Nulla nec finibus erat, nec facilisis augue. Pellentesque pellentesque euismod dolor at venenatis. Cras porttitor vestibulum turpis, id eleifend leo vestibulum molestie. Nulla varius erat semper nisi dapibus, at bibendum neque interdum. Vivamus vel rhoncus tellus, ut lacinia mi. Quisque a egestas purus. Sed dignissim, sem vel elementum fringilla, est magna tempor purus, ut pulvinar enim metus id diam. Duis elementum laoreet est id commodo. Cras placerat eu arcu non malesuada. Pellentesque efficitur nulla odio, quis aliquet neque pulvinar sed. Praesent ullamcorper nisl a arcu convallis facilisis. Aenean et molestie lorem.",
+         "allegato":"allegato/composizione_oggettistica_borse.pdf",
+         "pub_date":"2016-12-06T16:13:14Z",
+         "active":true,
+         "slide":true,
+         "promo":false,
+         "category":[
+            3
+         ],
+         "gallery":[
+
+         ],
+         "video":[
+
+         ],
+         "color":[
+            1
+         ],
+         "material":[
+
+         ],
+         "moduli":[
+
+         ]
+      }
+   },
+   {
+      "model":"product.product",
+      "pk":5,
+      "fields":{
+         "name":"Negozio Oggettistica",
+         "name_uk":"",
+         "code":"",
+         "quantity":0,
+         "price":"13136.00",
+         "discount":0,
+         "price_offer":"13136.00",
+         "image":"product/composizione_oggettistica_tortora.jpg",
+         "slider":"74,0,1926,1030",
+         "thumb":"286,0,1712,1030",
+         "thumbdue":"311,0,1686,1030",
+         "croplibero":"0,0,2000,1030",
+         "album":null,
+         "size":"",
+         "width":null,
+         "lenght":null,
+         "depth":null,
+         "height":null,
+         "volume":null,
+         "descrizione":"Moduli componibili per la realizzazione di un negozio di oggettistica, capaci di arredare il vostro negozio in maniera rapida, in base alle necessit\u00e0 di ciascuno, evidenziando linee di design al passo con le ultime tendenze moderne. Lineari nella forma, forti nella tecnologia, consentono di realizzare spazi espositivi di alto livello. Una soluzione versatile e flessibile per adattarsi ad ogni esigenza e comunicare stile ed emozione ai clienti. Soluzione \"fai da te\"  per acquistare arredamenti moderni e funzionali al fine di allestire il tuo negozio o la possibilit\u00e0 di avvalersi del nostro staff tecnico in grado di progettare la migliore soluzione per la vostra attivit\u00e0 commerciale in relazione alle vostre esigenze.",
+         "descrizione_uk":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis libero at fermentum auctor. Etiam maximus semper eros, ut pulvinar felis pulvinar pulvinar. Sed elementum risus et arcu pulvinar cursus. Etiam sit amet venenatis risus. Praesent lobortis lacus lectus, vitae porttitor tortor varius ac. Sed sed fringilla dui. Sed faucibus cursus iaculis. Etiam a arcu ac odio tincidunt egestas. Etiam maximus justo sit amet diam commodo vehicula. In consequat tellus vitae leo volutpat pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus volutpat dolor quis risus gravida, id eleifend massa congue. Vivamus eget neque vitae sapien rutrum ornare.\r\n\r\nSuspendisse vestibulum urna eros, in semper sapien bibendum vel. Nam viverra mauris sodales aliquet venenatis. Cras congue, felis non tempor auctor, diam metus scelerisque lacus, non varius nisi massa nec velit. Nulla nec finibus erat, nec facilisis augue. Pellentesque pellentesque euismod dolor at venenatis. Cras porttitor vestibulum turpis, id eleifend leo vestibulum molestie. Nulla varius erat semper nisi dapibus, at bibendum neque interdum. Vivamus vel rhoncus tellus, ut lacinia mi. Quisque a egestas purus. Sed dignissim, sem vel elementum fringilla, est magna tempor purus, ut pulvinar enim metus id diam. Duis elementum laoreet est id commodo. Cras placerat eu arcu non malesuada. Pellentesque efficitur nulla odio, quis aliquet neque pulvinar sed. Praesent ullamcorper nisl a arcu convallis facilisis. Aenean et molestie lorem.",
+         "allegato":"allegato/composizione_oggettistica_borse.pdf",
+         "pub_date":"2016-12-06T22:12:50Z",
+         "active":true,
+         "slide":true,
+         "promo":false,
+         "category":[
+            3
+         ],
+         "gallery":[
+
+         ],
+         "video":[
+
+         ],
+         "color":[
+            3
+         ],
+         "material":[
+
+         ],
+         "moduli":[
+
+         ]
+      }
+   },
+   {
+      "model":"product.product",
+      "pk":6,
+      "fields":{
+         "name":"Negozio Oggettistica",
+         "name_uk":"",
+         "code":"",
+         "quantity":0,
+         "price":"13136.00",
+         "discount":0,
+         "price_offer":"13136.00",
+         "image":"product/composizione_oggettistica_legno_vintage.jpg",
+         "slider":"74,0,1926,1030",
+         "thumb":"286,0,1712,1030",
+         "thumbdue":"311,0,1686,1030",
+         "croplibero":"0,0,2000,1030",
+         "album":null,
+         "size":"",
+         "width":null,
+         "lenght":null,
+         "depth":null,
+         "height":null,
+         "volume":null,
+         "descrizione":"Moduli componibili per la realizzazione di un negozio di oggettistica, capaci di arredare il vostro negozio in maniera rapida, in base alle necessit\u00e0 di ciascuno, evidenziando linee di design al passo con le ultime tendenze moderne. Lineari nella forma, forti nella tecnologia, consentono di realizzare spazi espositivi di alto livello. Una soluzione versatile e flessibile per adattarsi ad ogni esigenza e comunicare stile ed emozione ai clienti. Soluzione \"fai da te\"  per acquistare arredamenti moderni e funzionali al fine di allestire il tuo negozio o la possibilit\u00e0 di avvalersi del nostro staff tecnico in grado di progettare la migliore soluzione per la vostra attivit\u00e0 commerciale in relazione alle vostre esigenze.",
+         "descrizione_uk":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis libero at fermentum auctor. Etiam maximus semper eros, ut pulvinar felis pulvinar pulvinar. Sed elementum risus et arcu pulvinar cursus. Etiam sit amet venenatis risus. Praesent lobortis lacus lectus, vitae porttitor tortor varius ac. Sed sed fringilla dui. Sed faucibus cursus iaculis. Etiam a arcu ac odio tincidunt egestas. Etiam maximus justo sit amet diam commodo vehicula. In consequat tellus vitae leo volutpat pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus volutpat dolor quis risus gravida, id eleifend massa congue. Vivamus eget neque vitae sapien rutrum ornare.\r\n\r\nSuspendisse vestibulum urna eros, in semper sapien bibendum vel. Nam viverra mauris sodales aliquet venenatis. Cras congue, felis non tempor auctor, diam metus scelerisque lacus, non varius nisi massa nec velit. Nulla nec finibus erat, nec facilisis augue. Pellentesque pellentesque euismod dolor at venenatis. Cras porttitor vestibulum turpis, id eleifend leo vestibulum molestie. Nulla varius erat semper nisi dapibus, at bibendum neque interdum. Vivamus vel rhoncus tellus, ut lacinia mi. Quisque a egestas purus. Sed dignissim, sem vel elementum fringilla, est magna tempor purus, ut pulvinar enim metus id diam. Duis elementum laoreet est id commodo. Cras placerat eu arcu non malesuada. Pellentesque efficitur nulla odio, quis aliquet neque pulvinar sed. Praesent ullamcorper nisl a arcu convallis facilisis. Aenean et molestie lorem.",
+         "allegato":"allegato/composizione_oggettistica_borse.pdf",
+         "pub_date":"2016-12-06T16:12:28Z",
+         "active":true,
+         "slide":true,
+         "promo":false,
+         "category":[
+            3
+         ],
+         "gallery":[
+
+         ],
+         "video":[
+            2
+         ],
+         "color":[
+            2
+         ],
+         "material":[
+
+         ],
+         "moduli":[
+
+         ]
+      }
+   },
+   {
+      "model":"product.product",
+      "pk":7,
+      "fields":{
+         "name":"Negozio Ottica - A",
+         "name_uk":"",
+         "code":"",
+         "quantity":0,
+         "price":"17699.00",
+         "discount":0,
+         "price_offer":"17699.00",
+         "image":"product/composizione_ottica_A_bianco.jpg",
+         "slider":"72,0,1928,1032",
+         "thumb":"287,0,1715,1032",
+         "thumbdue":"312,0,1689,1032",
+         "croplibero":"0,0,2000,1032",
+         "album":null,
+         "size":"540x640",
+         "width":540,
+         "lenght":640,
+         "depth":640,
+         "height":null,
+         "volume":null,
+         "descrizione":"Moduli componibili per la realizzazione di un negozio di ottica, capaci di arredare il vostro negozio in maniera rapida, in base alle necessit\u00e0 di ciascuno, evidenziando linee di design al passo con le ultime tendenze moderne. Lineari nella forma, forti nella tecnologia, consentono di realizzare spazi espositivi di alto livello. Una soluzione versatile e flessibile per adattarsi ad ogni esigenza e comunicare stile ed emozione ai clienti. Soluzione \"fai da te\"  per acquistare arredamenti moderni e funzionali al fine di allestire il tuo negozio o la possibilit\u00e0 di avvalersi del nostro staff tecnico in grado di progettare la migliore soluzione per la vostra attivit\u00e0 commerciale in relazione alle vostre esigenze.",
+         "descrizione_uk":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis libero at fermentum auctor. Etiam maximus semper eros, ut pulvinar felis pulvinar pulvinar. Sed elementum risus et arcu pulvinar cursus. Etiam sit amet venenatis risus. Praesent lobortis lacus lectus, vitae porttitor tortor varius ac. Sed sed fringilla dui. Sed faucibus cursus iaculis. Etiam a arcu ac odio tincidunt egestas. Etiam maximus justo sit amet diam commodo vehicula. In consequat tellus vitae leo volutpat pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus volutpat dolor quis risus gravida, id eleifend massa congue. Vivamus eget neque vitae sapien rutrum ornare.\r\n\r\nSuspendisse vestibulum urna eros, in semper sapien bibendum vel. Nam viverra mauris sodales aliquet venenatis. Cras congue, felis non tempor auctor, diam metus scelerisque lacus, non varius nisi massa nec velit. Nulla nec finibus erat, nec facilisis augue. Pellentesque pellentesque euismod dolor at venenatis. Cras porttitor vestibulum turpis, id eleifend leo vestibulum molestie. Nulla varius erat semper nisi dapibus, at bibendum neque interdum. Vivamus vel rhoncus tellus, ut lacinia mi. Quisque a egestas purus. Sed dignissim, sem vel elementum fringilla, est magna tempor purus, ut pulvinar enim metus id diam. Duis elementum laoreet est id commodo. Cras placerat eu arcu non malesuada. Pellentesque efficitur nulla odio, quis aliquet neque pulvinar sed. Praesent ullamcorper nisl a arcu convallis facilisis. Aenean et molestie lorem.",
+         "allegato":"allegato/composizione_ottico_A.pdf",
+         "pub_date":"2016-12-06T16:12:05Z",
+         "active":true,
+         "slide":true,
+         "promo":false,
+         "category":[
+            2
+         ],
+         "gallery":[
+
+         ],
+         "video":[
+            3
+         ],
+         "color":[
+            1
+         ],
+         "material":[
+
+         ],
+         "moduli":[
+
+         ]
+      }
+   },
+   {
+      "model":"product.product",
+      "pk":8,
+      "fields":{
+         "name":"Negozio Ottica - A",
+         "name_uk":"",
+         "code":"",
+         "quantity":0,
+         "price":"17699.00",
+         "discount":0,
+         "price_offer":"17699.00",
+         "image":"product/composizione_ottica_A_tortora_Jl3f0yh.jpg",
+         "slider":"72,0,1928,1032",
+         "thumb":"287,0,1715,1032",
+         "thumbdue":"312,0,1689,1032",
+         "croplibero":"0,0,2000,1032",
+         "album":null,
+         "size":"540x640",
+         "width":540,
+         "lenght":640,
+         "depth":640,
+         "height":null,
+         "volume":null,
+         "descrizione":"Moduli componibili per la realizzazione di un negozio di ottica, capaci di arredare il vostro negozio in maniera rapida, in base alle necessit\u00e0 di ciascuno, evidenziando linee di design al passo con le ultime tendenze moderne. Lineari nella forma, forti nella tecnologia, consentono di realizzare spazi espositivi di alto livello. Una soluzione versatile e flessibile per adattarsi ad ogni esigenza e comunicare stile ed emozione ai clienti. Soluzione \"fai da te\"  per acquistare arredamenti moderni e funzionali al fine di allestire il tuo negozio o la possibilit\u00e0 di avvalersi del nostro staff tecnico in grado di progettare la migliore soluzione per la vostra attivit\u00e0 commerciale in relazione alle vostre esigenze.",
+         "descrizione_uk":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis libero at fermentum auctor. Etiam maximus semper eros, ut pulvinar felis pulvinar pulvinar. Sed elementum risus et arcu pulvinar cursus. Etiam sit amet venenatis risus. Praesent lobortis lacus lectus, vitae porttitor tortor varius ac. Sed sed fringilla dui. Sed faucibus cursus iaculis. Etiam a arcu ac odio tincidunt egestas. Etiam maximus justo sit amet diam commodo vehicula. In consequat tellus vitae leo volutpat pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus volutpat dolor quis risus gravida, id eleifend massa congue. Vivamus eget neque vitae sapien rutrum ornare.\r\n\r\nSuspendisse vestibulum urna eros, in semper sapien bibendum vel. Nam viverra mauris sodales aliquet venenatis. Cras congue, felis non tempor auctor, diam metus scelerisque lacus, non varius nisi massa nec velit. Nulla nec finibus erat, nec facilisis augue. Pellentesque pellentesque euismod dolor at venenatis. Cras porttitor vestibulum turpis, id eleifend leo vestibulum molestie. Nulla varius erat semper nisi dapibus, at bibendum neque interdum. Vivamus vel rhoncus tellus, ut lacinia mi. Quisque a egestas purus. Sed dignissim, sem vel elementum fringilla, est magna tempor purus, ut pulvinar enim metus id diam. Duis elementum laoreet est id commodo. Cras placerat eu arcu non malesuada. Pellentesque efficitur nulla odio, quis aliquet neque pulvinar sed. Praesent ullamcorper nisl a arcu convallis facilisis. Aenean et molestie lorem.",
+         "allegato":"allegato/composizione_ottico_A_bhDLwow.pdf",
+         "pub_date":"2016-12-06T22:11:45Z",
+         "active":true,
+         "slide":true,
+         "promo":false,
+         "category":[
+            2
+         ],
+         "gallery":[
+
+         ],
+         "video":[
+
+         ],
+         "color":[
+            3
+         ],
+         "material":[
+
+         ],
+         "moduli":[
+
+         ]
+      }
+   },
+   {
+      "model":"product.product",
+      "pk":9,
+      "fields":{
+         "name":"Negozio Ottica - A",
+         "name_uk":"",
+         "code":"",
+         "quantity":0,
+         "price":"17699.00",
+         "discount":0,
+         "price_offer":"17699.00",
+         "image":"product/composizione_ottica_A_legno_vintage.jpg",
+         "slider":"72,0,1928,1032",
+         "thumb":"287,0,1715,1032",
+         "thumbdue":"312,0,1689,1032",
+         "croplibero":"0,0,2000,1032",
+         "album":null,
+         "size":"540x640",
+         "width":540,
+         "lenght":640,
+         "depth":640,
+         "height":null,
+         "volume":null,
+         "descrizione":"Moduli componibili per la realizzazione di un negozio di ottica, capaci di arredare il vostro negozio in maniera rapida, in base alle necessit\u00e0 di ciascuno, evidenziando linee di design al passo con le ultime tendenze moderne. Lineari nella forma, forti nella tecnologia, consentono di realizzare spazi espositivi di alto livello. Una soluzione versatile e flessibile per adattarsi ad ogni esigenza e comunicare stile ed emozione ai clienti. Soluzione \"fai da te\"  per acquistare arredamenti moderni e funzionali al fine di allestire il tuo negozio o la possibilit\u00e0 di avvalersi del nostro staff tecnico in grado di progettare la migliore soluzione per la vostra attivit\u00e0 commerciale in relazione alle vostre esigenze.",
+         "descrizione_uk":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis libero at fermentum auctor. Etiam maximus semper eros, ut pulvinar felis pulvinar pulvinar. Sed elementum risus et arcu pulvinar cursus. Etiam sit amet venenatis risus. Praesent lobortis lacus lectus, vitae porttitor tortor varius ac. Sed sed fringilla dui. Sed faucibus cursus iaculis. Etiam a arcu ac odio tincidunt egestas. Etiam maximus justo sit amet diam commodo vehicula. In consequat tellus vitae leo volutpat pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus volutpat dolor quis risus gravida, id eleifend massa congue. Vivamus eget neque vitae sapien rutrum ornare.\r\n\r\nSuspendisse vestibulum urna eros, in semper sapien bibendum vel. Nam viverra mauris sodales aliquet venenatis. Cras congue, felis non tempor auctor, diam metus scelerisque lacus, non varius nisi massa nec velit. Nulla nec finibus erat, nec facilisis augue. Pellentesque pellentesque euismod dolor at venenatis. Cras porttitor vestibulum turpis, id eleifend leo vestibulum molestie. Nulla varius erat semper nisi dapibus, at bibendum neque interdum. Vivamus vel rhoncus tellus, ut lacinia mi. Quisque a egestas purus. Sed dignissim, sem vel elementum fringilla, est magna tempor purus, ut pulvinar enim metus id diam. Duis elementum laoreet est id commodo. Cras placerat eu arcu non malesuada. Pellentesque efficitur nulla odio, quis aliquet neque pulvinar sed. Praesent ullamcorper nisl a arcu convallis facilisis. Aenean et molestie lorem.",
+         "allegato":"allegato/composizione_ottico_A_R7apEie.pdf",
+         "pub_date":"2016-12-06T16:11:22Z",
+         "active":true,
+         "slide":true,
+         "promo":false,
+         "category":[
+            2
+         ],
+         "gallery":[
+
+         ],
+         "video":[
+
+         ],
+         "color":[
+            2
+         ],
+         "material":[
+
+         ],
+         "moduli":[
+
+         ]
+      }
+   },
+   {
+      "model":"product.product",
+      "pk":10,
+      "fields":{
+         "name":"Negozio Ottica - B",
+         "name_uk":"",
+         "code":"",
+         "quantity":0,
+         "price":"16605.00",
+         "discount":0,
+         "price_offer":"16605.00",
+         "image":"product/composizione_ottica_B_bianco.jpg",
+         "slider":"72,0,1926,1031",
+         "thumb":"287,0,1713,1031",
+         "thumbdue":"311,0,1688,1031",
+         "croplibero":"0,0,2000,1031",
+         "album":null,
+         "size":"600x360",
+         "width":600,
+         "lenght":360,
+         "depth":360,
+         "height":null,
+         "volume":null,
+         "descrizione":"Moduli componibili per la realizzazione di un negozio di ottica, capaci di arredare il vostro negozio in maniera rapida, in base alle necessit\u00e0 di ciascuno, evidenziando linee di design al passo con le ultime tendenze moderne. Lineari nella forma, forti nella tecnologia, consentono di realizzare spazi espositivi di alto livello. Una soluzione versatile e flessibile per adattarsi ad ogni esigenza e comunicare stile ed emozione ai clienti. Soluzione \"fai da te\"  per acquistare arredamenti moderni e funzionali al fine di allestire il tuo negozio o la possibilit\u00e0 di avvalersi del nostro staff tecnico in grado di progettare la migliore soluzione per la vostra attivit\u00e0 commerciale in relazione alle vostre esigenze.",
+         "descrizione_uk":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis libero at fermentum auctor. Etiam maximus semper eros, ut pulvinar felis pulvinar pulvinar. Sed elementum risus et arcu pulvinar cursus. Etiam sit amet venenatis risus. Praesent lobortis lacus lectus, vitae porttitor tortor varius ac. Sed sed fringilla dui. Sed faucibus cursus iaculis. Etiam a arcu ac odio tincidunt egestas. Etiam maximus justo sit amet diam commodo vehicula. In consequat tellus vitae leo volutpat pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus volutpat dolor quis risus gravida, id eleifend massa congue. Vivamus eget neque vitae sapien rutrum ornare.\r\n\r\nSuspendisse vestibulum urna eros, in semper sapien bibendum vel. Nam viverra mauris sodales aliquet venenatis. Cras congue, felis non tempor auctor, diam metus scelerisque lacus, non varius nisi massa nec velit. Nulla nec finibus erat, nec facilisis augue. Pellentesque pellentesque euismod dolor at venenatis. Cras porttitor vestibulum turpis, id eleifend leo vestibulum molestie. Nulla varius erat semper nisi dapibus, at bibendum neque interdum. Vivamus vel rhoncus tellus, ut lacinia mi. Quisque a egestas purus. Sed dignissim, sem vel elementum fringilla, est magna tempor purus, ut pulvinar enim metus id diam. Duis elementum laoreet est id commodo. Cras placerat eu arcu non malesuada. Pellentesque efficitur nulla odio, quis aliquet neque pulvinar sed. Praesent ullamcorper nisl a arcu convallis facilisis. Aenean et molestie lorem.",
+         "allegato":"allegato/composizione_ottica_B.pdf",
+         "pub_date":"2016-12-06T16:10:43Z",
+         "active":true,
+         "slide":true,
+         "promo":false,
+         "category":[
+            2
+         ],
+         "gallery":[
+
+         ],
+         "video":[
+
+         ],
+         "color":[
+            1
+         ],
+         "material":[
+
+         ],
+         "moduli":[
+
+         ]
+      }
+   },
+   {
+      "model":"product.product",
+      "pk":11,
+      "fields":{
+         "name":"Negozio Ottica - B",
+         "name_uk":"",
+         "code":"",
+         "quantity":0,
+         "price":"16605.00",
+         "discount":0,
+         "price_offer":"16605.00",
+         "image":"product/composizione_ottica_B_tortora.jpg",
+         "slider":"72,0,1926,1031",
+         "thumb":"287,0,1713,1031",
+         "thumbdue":"311,0,1688,1031",
+         "croplibero":"0,0,2000,1031",
+         "album":null,
+         "size":"600x360",
+         "width":600,
+         "lenght":360,
+         "depth":360,
+         "height":null,
+         "volume":null,
+         "descrizione":"Moduli componibili per la realizzazione di un negozio di ottica, capaci di arredare il vostro negozio in maniera rapida, in base alle necessit\u00e0 di ciascuno, evidenziando linee di design al passo con le ultime tendenze moderne. Lineari nella forma, forti nella tecnologia, consentono di realizzare spazi espositivi di alto livello. Una soluzione versatile e flessibile per adattarsi ad ogni esigenza e comunicare stile ed emozione ai clienti. Soluzione \"fai da te\"  per acquistare arredamenti moderni e funzionali al fine di allestire il tuo negozio o la possibilit\u00e0 di avvalersi del nostro staff tecnico in grado di progettare la migliore soluzione per la vostra attivit\u00e0 commerciale in relazione alle vostre esigenze.",
+         "descrizione_uk":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis libero at fermentum auctor. Etiam maximus semper eros, ut pulvinar felis pulvinar pulvinar. Sed elementum risus et arcu pulvinar cursus. Etiam sit amet venenatis risus. Praesent lobortis lacus lectus, vitae porttitor tortor varius ac. Sed sed fringilla dui. Sed faucibus cursus iaculis. Etiam a arcu ac odio tincidunt egestas. Etiam maximus justo sit amet diam commodo vehicula. In consequat tellus vitae leo volutpat pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus volutpat dolor quis risus gravida, id eleifend massa congue. Vivamus eget neque vitae sapien rutrum ornare.\r\n\r\nSuspendisse vestibulum urna eros, in semper sapien bibendum vel. Nam viverra mauris sodales aliquet venenatis. Cras congue, felis non tempor auctor, diam metus scelerisque lacus, non varius nisi massa nec velit. Nulla nec finibus erat, nec facilisis augue. Pellentesque pellentesque euismod dolor at venenatis. Cras porttitor vestibulum turpis, id eleifend leo vestibulum molestie. Nulla varius erat semper nisi dapibus, at bibendum neque interdum. Vivamus vel rhoncus tellus, ut lacinia mi. Quisque a egestas purus. Sed dignissim, sem vel elementum fringilla, est magna tempor purus, ut pulvinar enim metus id diam. Duis elementum laoreet est id commodo. Cras placerat eu arcu non malesuada. Pellentesque efficitur nulla odio, quis aliquet neque pulvinar sed. Praesent ullamcorper nisl a arcu convallis facilisis. Aenean et molestie lorem.",
+         "allegato":"allegato/composizione_ottica_B_2vCtK7l.pdf",
+         "pub_date":"2017-03-12T18:33:46Z",
+         "active":true,
+         "slide":true,
+         "promo":false,
+         "category":[
+            2
+         ],
+         "gallery":[
+            2,
+            4
+         ],
+         "video":[
+            4
+         ],
+         "color":[
+            3
+         ],
+         "material":[
+
+         ],
+         "moduli":[
+
+         ]
+      }
+   },
+   {
+      "model":"product.product",
+      "pk":12,
+      "fields":{
+         "name":"Negozio Ottica - B",
+         "name_uk":"",
+         "code":"",
+         "quantity":0,
+         "price":"16605.00",
+         "discount":0,
+         "price_offer":"16605.00",
+         "image":"product/composizione_ottica_B_legno_vintage.jpg",
+         "slider":"72,0,1926,1031",
+         "thumb":"287,0,1713,1031",
+         "thumbdue":"311,0,1688,1031",
+         "croplibero":"0,0,2000,1031",
+         "album":null,
+         "size":"600x360",
+         "width":600,
+         "lenght":360,
+         "depth":360,
+         "height":null,
+         "volume":null,
+         "descrizione":"Moduli componibili per la realizzazione di un negozio di ottica, capaci di arredare il vostro negozio in maniera rapida, in base alle necessit\u00e0 di ciascuno, evidenziando linee di design al passo con le ultime tendenze moderne. Lineari nella forma, forti nella tecnologia, consentono di realizzare spazi espositivi di alto livello. Una soluzione versatile e flessibile per adattarsi ad ogni esigenza e comunicare stile ed emozione ai clienti. Soluzione \"fai da te\"  per acquistare arredamenti moderni e funzionali al fine di allestire il tuo negozio o la possibilit\u00e0 di avvalersi del nostro staff tecnico in grado di progettare la migliore soluzione per la vostra attivit\u00e0 commerciale in relazione alle vostre esigenze.",
+         "descrizione_uk":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis libero at fermentum auctor. Etiam maximus semper eros, ut pulvinar felis pulvinar pulvinar. Sed elementum risus et arcu pulvinar cursus. Etiam sit amet venenatis risus. Praesent lobortis lacus lectus, vitae porttitor tortor varius ac. Sed sed fringilla dui. Sed faucibus cursus iaculis. Etiam a arcu ac odio tincidunt egestas. Etiam maximus justo sit amet diam commodo vehicula. In consequat tellus vitae leo volutpat pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus volutpat dolor quis risus gravida, id eleifend massa congue. Vivamus eget neque vitae sapien rutrum ornare.\r\n\r\nSuspendisse vestibulum urna eros, in semper sapien bibendum vel. Nam viverra mauris sodales aliquet venenatis. Cras congue, felis non tempor auctor, diam metus scelerisque lacus, non varius nisi massa nec velit. Nulla nec finibus erat, nec facilisis augue. Pellentesque pellentesque euismod dolor at venenatis. Cras porttitor vestibulum turpis, id eleifend leo vestibulum molestie. Nulla varius erat semper nisi dapibus, at bibendum neque interdum. Vivamus vel rhoncus tellus, ut lacinia mi. Quisque a egestas purus. Sed dignissim, sem vel elementum fringilla, est magna tempor purus, ut pulvinar enim metus id diam. Duis elementum laoreet est id commodo. Cras placerat eu arcu non malesuada. Pellentesque efficitur nulla odio, quis aliquet neque pulvinar sed. Praesent ullamcorper nisl a arcu convallis facilisis. Aenean et molestie lorem.",
+         "allegato":"allegato/composizione_ottica_B_4i19lwe.pdf",
+         "pub_date":"2016-12-06T16:09:54Z",
+         "active":true,
+         "slide":true,
+         "promo":false,
+         "category":[
+            2
+         ],
+         "gallery":[
+
+         ],
+         "video":[
+
+         ],
+         "color":[
+            3
+         ],
+         "material":[
+
+         ],
+         "moduli":[
+
+         ]
+      }
+   }
+]

@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block yellowline %}
+<div class="col-xs-12 banding-yellow"></div>
+{% endblock %}
+
+{% block content %}
+
+<div class="container" style="background-color: #ffffff; margin-bottom:0px;">
+
+<div style="width:95%; margin: 0 auto; margin-bottom:200px;margin-top:20px;">
+
+<h5 style="margin-top:20px;">
+  <br>
+  {% if session_language = 'en' %}
+  Hello {{request.user.username }}, this is your order made in date {{order.pub_date}}
+  {% else %}
+  Ciao {{request.user.username }}, questo è il tuo ordine effettuato in data {{order.pub_date}}
+  {% endif %}
+  <br>
+  <br>ID ORDINE: {{order.id}}</h5>
+<br>
+<table class="table table-striped">
+  <tr>
+      <th>Img/{% if session_language = 'en' %}Detail{% else %}Dettaglio{% endif %}</th>
+      <th>{% if session_language = 'en' %}Product{% else %}Prodotto{% endif %}</th>
+      <th>{% if session_language = 'en' %}Color{% else %}Colore{% endif %}</th>
+      <th></th>
+      <th class="hidden-xs hidden-sm">{% if session_language = 'en' %}Quantity{% else %}Quantità{% endif %}</th>
+      <th class="hidden-md hidden-lg">Qt.</th>
+      <th class="hidden-xs hidden-sm hidden-md">{% if session_language = 'en' %}Price Unit{% else %}Prezzo Unitario{% endif %}</th>
+      <th class="hidden-xs hidden-sm">{% if session_language = 'en' %}Total Price{% else %}Prezzo Totale{% endif %}</th>
+      <th class="hidden-md hidden-lg">{% if session_language = 'en' %}Tot.Price{% else %}Prezzo Tot.{% endif %}</th>
+      <th></th>
+  </tr>
+
+ {% for cart in order.orderitem_set.all %}
+  <tr>
+    <td>
+      {% load cropping %}
+      	<a href="{% url 'detail' session_language cart.product.id %}">
+      		<img src="{% cropped_thumbnail cart.product "thumbdue" %}" style="width:200px;" class="hidden-xs hidden-sm">
+          <img src="{% cropped_thumbnail cart.product "thumbdue" %}" style="width:130px;" class="hidden-md hidden-lg">
+  		</a>
+    </td>
+    <td>
+       {% if session_language = 'en' %}
+            {{cart.product.name_uk}}
+       {% else %}
+           {{cart.product.name}}
+        {% endif %}
+    </td>
+    
+    <td>
+      {% if cart.product.color %}
+      <p>
+        <span style="font-size:10px;">
+          <img src="/media/{{cart.product.color.first.image}}" class="color-thumb-circle" style="width:30px;height:30px; border-radius:30px;">
+           <span class="hidden-xs hidden-sm">{{cart.product.color.first}}</span>
+        {% endif %}
+        </span>
+      </p>
+    </td>
+    
+    <td>
+
+    </td>
+
+    <td>{{cart.quantity}}</t>
+    <td class="hidden-xs hidden-sm hidden-md">{{cart.price}} €.</td>
+    <td>
+      <span class="hidden-sm hidden-xs">{% if session_language = 'en' %}Total:{% else %}Totale:{% endif %}</span> {{cart.price_total}} €.<br>
+    </td>
+    <td></td>
+  </tr>
+{% endfor %}
+
+
+
+</table>
+<span class="hidden-lg hidden-md"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></span>
+
+    </div>
+
+</div>
+
+
+
+{% endblock %}
