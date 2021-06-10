@@ -1,4 +1,4 @@
-Django==1.9.8
+Django==2.2.24
 django-appconf==1.0.1
 django-carton==1.2.1
 django-filer==1.2.5
